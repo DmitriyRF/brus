@@ -1,2 +1,19 @@
 .sass-cache/
 *.css.map
+
+#Temp Files
+data/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+#Folder idea
+.idea/
+.idea/*.xml
