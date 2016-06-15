@@ -1,13 +1,26 @@
 @import "bourbon/bourbon"
 
+$text-color: #333
+
+$font-size: 16px
+
+$main-font-family: "RobotoRegular", sans-serif
+
+$main-color: #FFAB00
+$add-color1: #FFD700
+$add-color2: #FF7100
+$contr-color: #123EAB
+$add-contr-fon: #466FD5
 body
-	font-family: "Raleway", sans-serif
+	font-family: $main-font-family,"Raleway", sans-serif
+	color: $text-color
 	font-weight: normal
-	font-size: 14px
+	font-size: $font-size
 	min-width: 320px
 	position: relative
 	line-height: 1.42857
-	-webkit-font-smoothing: antialised
+	-webkit-font-smoothing: antialiased
+
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -18,3 +31,62 @@ body textarea:required:valid
 
 .hidden
 	display: none
+
+h1
+	color: $main-color
+	font-size: 60px
+	line-height: 56px
+	font-weight: bold
+	font-family: CleanvertisingLight, sans-serif
+	margin: 0
+
+section
+	padding: 56px 0 68px
+	h2
+		color: $main-color
+		font-size: 50px
+		line-height: 40px
+
+
+header
+	min-height: 600px
+	background-image: url(../img/mainBG.jpeg)
+	background-position: top center
+	-webkit-background-size: cover
+	background-size: cover
+	color: $add-color2
+	.logo
+		font-size: 40px
+		font-family: $main-font-family
+		font-weight: bold
+	.fon-white
+		background: rgba(255,255,255,0.73)
+		width: 100%
+		height: 100%
+		padding: 35px 0 0
+
+
+
+.tel
+	text-align: right
+	.js-wrapper
+		.active
+			color: red
+			text-decoration: underline
+		.tab
+			text-transform: uppercase
+			cursor: pointer
+		.tab_item
+			font-size: 35px
+			font-family: "RobotoBold"
+.caption
+	color: $main-color
+	h2
+		margin: 0
+		font-family: "CleanvertisingLight"
+	margin-top: 80px
+
+
+
+
+

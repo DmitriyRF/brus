@@ -12,7 +12,18 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+  .tel, .logo, .caption{
+   text-align: center;
+  }
+   .logo{
+       margin-bottom: 15px;
+   }
+   header{
+       font-size: 25px;
+   }
+   .caption{
+       font-size: 40px;
+   }
 }
 
 /* Extra Small Devices, Phones */
@@ -22,7 +33,10 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .caption, h1{
+        font-size: 25px;
+        line-height: auto;
+            }
 }
 
 

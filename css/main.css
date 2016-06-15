@@ -1,11 +1,12 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "RobotoRegular", sans-serif, "Raleway", sans-serif;
+  color: #333;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   min-width: 320px;
   position: relative;
   line-height: 1.42857;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialiased; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -17,3 +18,56 @@ body textarea:required:valid {
 
 .hidden {
   display: none; }
+
+h1 {
+  color: #FFAB00;
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: CleanvertisingLight, sans-serif;
+  margin: 0; }
+
+section {
+  padding: 56px 0 68px; }
+  section h2 {
+    color: #FFAB00;
+    font-size: 50px;
+    line-height: 40px; }
+
+header {
+  min-height: 600px;
+  background-image: url(../img/mainBG.jpeg);
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #FF7100; }
+  header .logo {
+    font-size: 40px;
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: bold; }
+  header .fon-white {
+    background: rgba(255, 255, 255, 0.73);
+    width: 100%;
+    height: 100%;
+    padding: 35px 0 0; }
+
+.tel {
+  text-align: right; }
+  .tel .js-wrapper .active {
+    color: red;
+    text-decoration: underline; }
+  .tel .js-wrapper .tab {
+    text-transform: uppercase;
+    cursor: pointer; }
+  .tel .js-wrapper .tab_item {
+    font-size: 35px;
+    font-family: "RobotoBold"; }
+
+.caption {
+  color: #FFAB00;
+  margin-top: 80px; }
+  .caption h2 {
+    margin: 0;
+    font-family: "CleanvertisingLight"; }
+
+/*# sourceMappingURL=main.css.map */
