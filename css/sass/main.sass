@@ -65,20 +65,27 @@ header
 		height: 100%
 		padding: 35px 0 0
 
+=style-for-tabs()
+	.active
+		color: red
+		text-decoration: underline
+	.tab
+		text-transform: uppercase
+		cursor: pointer
+	.tab_item
+		font-size: 35px
+		font-family: "RobotoBold"
 
 
 .tel
 	text-align: right
 	.js-wrapper
-		.active
-			color: red
-			text-decoration: underline
-		.tab
-			text-transform: uppercase
-			cursor: pointer
-		.tab_item
-			font-size: 35px
-			font-family: "RobotoBold"
+		+style-for-tabs()
+
+.tabs-heder
+	.js-wrapper
+		+style-for-tabs()
+
 .caption
 	color: $main-color
 	h2

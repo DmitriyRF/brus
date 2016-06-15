@@ -63,6 +63,16 @@ header {
     font-size: 35px;
     font-family: "RobotoBold"; }
 
+.tabs-heder .js-wrapper .active {
+  color: red;
+  text-decoration: underline; }
+.tabs-heder .js-wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer; }
+.tabs-heder .js-wrapper .tab_item {
+  font-size: 35px;
+  font-family: "RobotoBold"; }
+
 .caption {
   color: #FFAB00;
   margin-top: 80px; }

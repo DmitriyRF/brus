@@ -1,33 +1,43 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	//Для заполнения всего начального экрана
-	function WindowResize(){
-		$(".js-resize").css("height",$(window).height());
+	function WindowResize() {
+		$(".js-resize").css("height", $(window).height());
 	}
 	WindowResize();
 	$(window).resize(function () {
 		WindowResize();
-	})
+	});
 
-	//Для табов
-	$(".tab_item").not(":first").hide();
-	var ElementsW =document.body.getElementsByClassName("js-wrapper");
-	var quantityW = ElementsW.length;
-	if(quantityW){
-		for(var i = 0; i<quantityW; i++){
-			ElementsW[i].addEventListener('click',function(event){
-				var target = event.target; // где был клик?
-				if(target.tagName === "span"){
-					this.getElementsByClassName(tab).removeClass("active").eq($(this).index()).addClass("active");
-				}
-			},false);
+	//Для табов---------------------+-------------------------+--------------
+    $(".tab_item").hide();
+    $(".tab_item:first-child").fadeIn();
+    //$("span.tab:first-child").classList.add('active');
+    $(".tab:first-child").addClass('active');
+    var selectedTd;
+    function Class_Active(node) {
+        //if (selectedTd) {
+            selectedTd = node;
+            var quantityCh = selectedTd.parentElement.children.length;
+            var Elements_of_Parent = selectedTd.parentElement.children;
+            for (var i=0; i<quantityCh; i++) {
+                Elements_of_Parent[i].classList.remove('active');
+            }
+        //}
+        //selectedTd = node;
+        selectedTd.classList.add('active');
+    }
+
+	 document.body.addEventListener('click', function (event) {
+		var target = event.target;
+		while (target !== this) {
+			if (target.className === ("tab")) {
+                Class_Active(target);
+				return;
+			}
+			target = target.parentNode;
 		}
-	}
+	});
 
-	//$(".js-wrapper .tab").click(function() {
-	//	$(this).removeClass("active").eq($(this).index()).addClass("active");
-	//	var TabEl = this.parentNode.parentNode.getElementsByClassName('tab');
-	//	/*this.parentNode.hide().eq($(this).index()).fadeIn()*/
-	//}).eq(0).addClass("active");
 	/*
 	$(".tab_item").not(":first").hide();
 	$(".js-wrapper .tab").click(function() {
@@ -44,11 +54,11 @@ $(document).ready(function() {
 	}));
 
 	//SVG Fallback
-	if(!Modernizr.svg) {
+	if(!Modernizr.svg){
 		$("img[src*='svg']").attr("src", function() {
 			return $(this).attr("src").replace(".svg", ".png");
 		});
-	};
+	}
 
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
