@@ -11,20 +11,22 @@ $(document).ready(function () {
 	//Для табов---------------------+-------------------------+--------------
     $(".tab_item").hide();
     $(".tab_item:first-child").fadeIn();
-    //$("span.tab:first-child").classList.add('active');
     $(".tab:first-child").addClass('active');
-    var selectedTd;
-    function Class_Active(node) {
-        //if (selectedTd) {
-            selectedTd = node;
-            var quantityCh = selectedTd.parentElement.children.length;
-            var Elements_of_Parent = selectedTd.parentElement.children;
-            for (var i=0; i<quantityCh; i++) {
+    function Class_Active(selectedTd) {
+        var quantityCh = selectedTd.parentElement.children.length;
+        var Elements_of_Parent = selectedTd.parentElement.children;
+        for (var i=0; i<quantityCh; i++) {
                 Elements_of_Parent[i].classList.remove('active');
-            }
-        //}
-        //selectedTd = node;
+        }
         selectedTd.classList.add('active');
+        //var Show_s_Index=selectedTd.index;
+        //var Element_of_tab_item = selectedTd.parentElement
+         //                                   .parentElement
+         //                                   .getElementsByClassName("tab_content");
+        //for (var i=0; i<quantityCh; i++) {
+         //   Element_of_tab_item.children[i].style.opacity("0");
+		//}
+		//Element_of_tab_item.children[Show_s_Index].style.opacity("0");
     }
 
 	 document.body.addEventListener('click', function (event) {
