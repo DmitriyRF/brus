@@ -57,24 +57,43 @@ header {
     color: #FF7100;
     text-decoration: underline; }
   .tel .js-wrapper .tab {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     text-transform: uppercase;
     cursor: pointer; }
   .tel .js-wrapper .tab_item {
     font-size: 35px;
     font-family: "RobotoBold"; }
 
-.tabs-heder .tabs span {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.35);
-  padding: 10px 15px;
-  text-transform: uppercase;
-  float: left;
-  cursor: pointer;
-  font-family: "RobotoBold", sans-serif;
-  color: #FFD700; }
-  .tabs-heder .tabs span.active {
+.tabs-heder {
+  margin-top: 30px; }
+  .tabs-heder ul, .tabs-heder li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .tabs-heder .tabs span {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    float: left;
+    cursor: pointer;
+    font-family: "RobotoBold", sans-serif;
+    color: #FFD700;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
+    .tabs-heder .tabs span.active {
+      background-color: rgba(255, 255, 255, 0.85);
+      color: #FF7100; }
+  .tabs-heder .tab_item {
+    display: block;
     background-color: rgba(255, 255, 255, 0.85);
-    color: #FF7100; }
+    padding: 10px 25px;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease; }
 
 .caption {
   color: #FFAB00;

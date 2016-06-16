@@ -24,6 +24,10 @@
    .caption{
        font-size: 40px;
    }
+    .tabs-heder{
+        font-size: 12px;
+        margin-top: 25px;
+    }
 }
 
 /* Extra Small Devices, Phones */

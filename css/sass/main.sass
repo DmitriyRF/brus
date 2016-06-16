@@ -70,6 +70,7 @@ header
 		color: $add-color2
 		text-decoration: underline
 	.tab
+		+transition(all .2s ease)
 		text-transform: uppercase
 		cursor: pointer
 	.tab_item
@@ -83,6 +84,11 @@ header
 		+style-for-tabs()
 
 .tabs-heder
+	margin-top: 30px
+	ul, li
+		list-style-type: none
+		margin: 0
+		padding: 0
 	.tabs
 		span
 			display: inline-block
@@ -93,9 +99,15 @@ header
 			cursor: pointer
 			font-family: "RobotoBold", sans-serif
 			color: $add-color1
+			+transition(all .2s ease)
 			&.active
 				background-color: rgba(255, 255, 255, .85)
 				color: $add-color2
+	.tab_item
+		display: block
+		background-color: rgba(255, 255, 255, .85)
+		padding: 10px 25px
+		+transition(all .1s ease)
 
 
 
