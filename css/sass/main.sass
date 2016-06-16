@@ -54,7 +54,7 @@ header
 	background-position: top center
 	-webkit-background-size: cover
 	background-size: cover
-	color: $add-color2
+	color: $main-color
 	.logo
 		font-size: 40px
 		font-family: $main-font-family
@@ -67,7 +67,7 @@ header
 
 =style-for-tabs()
 	.active
-		color: red
+		color: $add-color2
 		text-decoration: underline
 	.tab
 		text-transform: uppercase
@@ -83,8 +83,24 @@ header
 		+style-for-tabs()
 
 .tabs-heder
-	.js-wrapper
-		+style-for-tabs()
+	.tabs
+		span
+			display: inline-block
+			background-color: rgba(255, 255, 255, .35)
+			padding: 10px 15px
+			text-transform: uppercase
+			float: left
+			cursor: pointer
+			font-family: "RobotoBold", sans-serif
+			color: $add-color1
+			&.active
+				background-color: rgba(255, 255, 255, .85)
+				color: $add-color2
+
+
+
+
+
 
 .caption
 	color: $main-color

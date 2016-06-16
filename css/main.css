@@ -40,7 +40,7 @@ header {
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  color: #FF7100; }
+  color: #FFAB00; }
   header .logo {
     font-size: 40px;
     font-family: "RobotoRegular", sans-serif;
@@ -54,7 +54,7 @@ header {
 .tel {
   text-align: right; }
   .tel .js-wrapper .active {
-    color: red;
+    color: #FF7100;
     text-decoration: underline; }
   .tel .js-wrapper .tab {
     text-transform: uppercase;
@@ -63,15 +63,18 @@ header {
     font-size: 35px;
     font-family: "RobotoBold"; }
 
-.tabs-heder .js-wrapper .active {
-  color: red;
-  text-decoration: underline; }
-.tabs-heder .js-wrapper .tab {
+.tabs-heder .tabs span {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 10px 15px;
   text-transform: uppercase;
-  cursor: pointer; }
-.tabs-heder .js-wrapper .tab_item {
-  font-size: 35px;
-  font-family: "RobotoBold"; }
+  float: left;
+  cursor: pointer;
+  font-family: "RobotoBold", sans-serif;
+  color: #FFD700; }
+  .tabs-heder .tabs span.active {
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #FF7100; }
 
 .caption {
   color: #FFAB00;
