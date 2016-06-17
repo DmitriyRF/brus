@@ -72,6 +72,12 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+  .tabs-heder li {
+    pading-left: 20px;
+    text-transform: uppercase;
+    position: relative; }
+  .tabs-heder img {
+    position: absolute; }
   .tabs-heder .tabs span {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.35);
@@ -91,9 +97,9 @@ header {
     display: block;
     background-color: rgba(255, 255, 255, 0.85);
     padding: 10px 25px;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    transition: all 0.1s ease; }
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
 
 .caption {
   color: #FFAB00;
