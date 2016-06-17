@@ -10,7 +10,7 @@ $main-color: #FFAB00
 $add-color1: #FFD700
 $add-color2: #FF7100
 $contr-color: #123EAB
-$add-contr-fon: #466FD5
+$add-contr-fon: #466FD5 //rgba(70, 11, 213, 0.5)
 body
 	font-family: $main-font-family,"Raleway", sans-serif
 	color: $text-color
@@ -60,10 +60,10 @@ header
 		font-family: $main-font-family
 		font-weight: bold
 	.fon-white
-		background: rgba(255,255,255,0.73)
+		background: rgba(100, 100, 100, 0.7) //rgba(255,255,255,0.73)
 		width: 100%
 		height: 100%
-		padding: 35px 0 0
+		padding: 35px 0
 
 =style-for-tabs()
 	.active
@@ -76,26 +76,22 @@ header
 	.tab_item
 		font-size: 35px
 		font-family: "RobotoBold"
-
-
 .tel
 	text-align: right
 	.js-wrapper
 		+style-for-tabs()
 
+
+
+
+
+
+
+
 .tabs-heder
-	margin-top: 30px
-	ul, li
-		list-style-type: none
-		margin: 0
-		padding: 0
-	li
-		pading-left: 20px
-		text-transform: uppercase
-		position: relative
-	img
-		position: absolute
+	margin: 30px 0
 	.tabs
+		padding: 10px 25px 20px
 		span
 			display: inline-block
 			background-color: rgba(255, 255, 255, .35)
@@ -105,20 +101,44 @@ header
 			cursor: pointer
 			font-family: "RobotoBold", sans-serif
 			color: $add-color1
-			+transition(all .2s ease)
+			/*+transition(all .2s ease)*/
 			&.active
 				background-color: rgba(255, 255, 255, .85)
 				color: $add-color2
-	.tab_item
-		display: block
+	.tabs_content
+		
 		background-color: rgba(255, 255, 255, .85)
-		padding: 10px 25px
-		+transition(all .2s ease)
+		ul, li
+			list-style-type: none
+			margin: 0
+			padding: 0
+		li
+			display: block
+			height: 45px
+			text-transform: uppercase
+			position: relative
+			top: 0 
+			z-index: 1
+			h4
+				display: block
+				padding: 13px 0 13px 65px
+				margin: 0
+				vertical-align: middle
+				&:hover
+					top: -3px
+					zoom: 1.1
+					z-index: 2
+		.tab_item
+			display: block
+			padding: 10px 25px 20px
+			background-color: rgba(255, 255, 255, .85)
 
-
-
-
-
+.bg-image 
+	height: 45px
+	width: 45px
+	float: left
+	-webkit-background-size: cover
+	background-size: cover
 
 .caption
 	color: $main-color
@@ -127,7 +147,26 @@ header
 		font-family: "CleanvertisingLight"
 	margin-top: 80px
 
+.button--wrappe
+	text-align: right
 
+=main-button()
+	border: none
+	cursor: pointer
+	padding: 0 32px
+	display: inline-block
+	height: 45px
+	line-height: 45px
+	background-color: #000
+	text-transform: uppercase
+	border-radius: 3px
+	color: #fff
+	text-align: center
+	text-decoration: none
+	font-size: 16px
+	font-family: "RobotoRegular"
 
+.button--main
+	+main-button()
 
-
+	

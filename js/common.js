@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 //Для заполнения всего начального экрана ----------------+----------------
     function WindowResize() {
-        $(".js-resize").css("height", $(window).height());
+        $(".js-resize").css("min-height", $(window).height());
     }
 
     WindowResize();

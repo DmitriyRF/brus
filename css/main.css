@@ -1,3 +1,4 @@
+/* line 14, sass/main.sass */
 body {
   font-family: "RobotoRegular", sans-serif, "Raleway", sans-serif;
   color: #333;
@@ -6,106 +7,196 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.42857;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
+/* line 25, sass/main.sass */
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: red; }
+  color: red;
+}
 
+/* line 28, sass/main.sass */
 body input:required:valid,
 body textarea:required:valid {
-  color: green; }
+  color: green;
+}
 
+/* line 32, sass/main.sass */
 .hidden {
-  display: none; }
+  display: none;
+}
 
+/* line 35, sass/main.sass */
 h1 {
   color: #FFAB00;
   font-size: 60px;
   line-height: 56px;
   font-weight: bold;
   font-family: CleanvertisingLight, sans-serif;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 43, sass/main.sass */
 section {
-  padding: 56px 0 68px; }
-  section h2 {
-    color: #FFAB00;
-    font-size: 50px;
-    line-height: 40px; }
+  padding: 56px 0 68px;
+}
+/* line 45, sass/main.sass */
+section h2 {
+  color: #FFAB00;
+  font-size: 50px;
+  line-height: 40px;
+}
 
+/* line 51, sass/main.sass */
 header {
   min-height: 600px;
   background-image: url(../img/mainBG.jpeg);
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
-  color: #FFAB00; }
-  header .logo {
-    font-size: 40px;
-    font-family: "RobotoRegular", sans-serif;
-    font-weight: bold; }
-  header .fon-white {
-    background: rgba(255, 255, 255, 0.73);
-    width: 100%;
-    height: 100%;
-    padding: 35px 0 0; }
+  color: #FFAB00;
+}
+/* line 58, sass/main.sass */
+header .logo {
+  font-size: 40px;
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+}
+/* line 62, sass/main.sass */
+header .fon-white {
+  background: rgba(100, 100, 100, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 35px 0;
+}
 
+/* line 79, sass/main.sass */
 .tel {
-  text-align: right; }
-  .tel .js-wrapper .active {
-    color: #FF7100;
-    text-decoration: underline; }
-  .tel .js-wrapper .tab {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-    text-transform: uppercase;
-    cursor: pointer; }
-  .tel .js-wrapper .tab_item {
-    font-size: 35px;
-    font-family: "RobotoBold"; }
+  text-align: right;
+}
+/* line 69, sass/main.sass */
+.tel .js-wrapper .active {
+  color: #FF7100;
+  text-decoration: underline;
+}
+/* line 72, sass/main.sass */
+.tel .js-wrapper .tab {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 76, sass/main.sass */
+.tel .js-wrapper .tab_item {
+  font-size: 35px;
+  font-family: "RobotoBold";
+}
 
+/* line 91, sass/main.sass */
 .tabs-heder {
-  margin-top: 30px; }
-  .tabs-heder ul, .tabs-heder li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
-  .tabs-heder li {
-    pading-left: 20px;
-    text-transform: uppercase;
-    position: relative; }
-  .tabs-heder img {
-    position: absolute; }
-  .tabs-heder .tabs span {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.35);
-    padding: 10px 15px;
-    text-transform: uppercase;
-    float: left;
-    cursor: pointer;
-    font-family: "RobotoBold", sans-serif;
-    color: #FFD700;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    transition: all 0.2s ease; }
-    .tabs-heder .tabs span.active {
-      background-color: rgba(255, 255, 255, 0.85);
-      color: #FF7100; }
-  .tabs-heder .tab_item {
-    display: block;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 10px 25px;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    transition: all 0.2s ease; }
+  margin: 30px 0;
+}
+/* line 93, sass/main.sass */
+.tabs-heder .tabs {
+  padding: 10px 25px 20px;
+}
+/* line 95, sass/main.sass */
+.tabs-heder .tabs span {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding: 10px 15px;
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer;
+  font-family: "RobotoBold", sans-serif;
+  color: #FFD700;
+  /*+transition(all .2s ease) */
+}
+/* line 105, sass/main.sass */
+.tabs-heder .tabs span.active {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #FF7100;
+}
+/* line 108, sass/main.sass */
+.tabs-heder .tabs_content {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+/* line 111, sass/main.sass */
+.tabs-heder .tabs_content ul, .tabs-heder .tabs_content li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 115, sass/main.sass */
+.tabs-heder .tabs_content li {
+  display: block;
+  height: 45px;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+/* line 122, sass/main.sass */
+.tabs-heder .tabs_content li h4 {
+  display: block;
+  padding: 13px 0 13px 65px;
+  margin: 0;
+  vertical-align: middle;
+}
+/* line 127, sass/main.sass */
+.tabs-heder .tabs_content li h4:hover {
+  top: -3px;
+  zoom: 1.1;
+  z-index: 2;
+}
+/* line 131, sass/main.sass */
+.tabs-heder .tabs_content .tab_item {
+  display: block;
+  padding: 10px 25px 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
 
+/* line 136, sass/main.sass */
+.bg-image {
+  height: 45px;
+  width: 45px;
+  float: left;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 143, sass/main.sass */
 .caption {
   color: #FFAB00;
-  margin-top: 80px; }
-  .caption h2 {
-    margin: 0;
-    font-family: "CleanvertisingLight"; }
+  margin-top: 80px;
+}
+/* line 145, sass/main.sass */
+.caption h2 {
+  margin: 0;
+  font-family: "CleanvertisingLight";
+}
 
-/*# sourceMappingURL=main.css.map */
+/* line 150, sass/main.sass */
+.button--wrappe {
+  text-align: right;
+}
+
+/* line 169, sass/main.sass */
+.button--main {
+  border: none;
+  cursor: pointer;
+  padding: 0 32px;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  background-color: #000;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "RobotoRegular";
+}
