@@ -94,19 +94,15 @@ header .fon-white {
   font-family: "RobotoBold";
 }
 
-/* line 91, sass/main.sass */
+/* line 84, sass/main.sass */
 .tabs-heder {
   margin: 30px 0;
 }
-/* line 93, sass/main.sass */
-.tabs-heder .tabs {
-  padding: 10px 25px 20px;
-}
-/* line 95, sass/main.sass */
+/* line 87, sass/main.sass */
 .tabs-heder .tabs span {
   display: inline-block;
+  padding: 10px 25px;
   background-color: rgba(255, 255, 255, 0.35);
-  padding: 10px 15px;
   text-transform: uppercase;
   float: left;
   cursor: pointer;
@@ -114,22 +110,18 @@ header .fon-white {
   color: #FFD700;
   /*+transition(all .2s ease) */
 }
-/* line 105, sass/main.sass */
+/* line 97, sass/main.sass */
 .tabs-heder .tabs span.active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #FF7100;
 }
-/* line 108, sass/main.sass */
-.tabs-heder .tabs_content {
-  background-color: rgba(255, 255, 255, 0.85);
-}
-/* line 111, sass/main.sass */
+/* line 101, sass/main.sass */
 .tabs-heder .tabs_content ul, .tabs-heder .tabs_content li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 115, sass/main.sass */
+/* line 105, sass/main.sass */
 .tabs-heder .tabs_content li {
   display: block;
   height: 45px;
@@ -138,27 +130,27 @@ header .fon-white {
   top: 0;
   z-index: 1;
 }
-/* line 122, sass/main.sass */
-.tabs-heder .tabs_content li h4 {
+/* line 112, sass/main.sass */
+.tabs-heder .tabs_content h4 {
   display: block;
-  padding: 13px 0 13px 65px;
+  padding: 0 0 0 65px;
   margin: 0;
   vertical-align: middle;
 }
-/* line 127, sass/main.sass */
-.tabs-heder .tabs_content li h4:hover {
+/* line 117, sass/main.sass */
+.tabs-heder .tabs_content h4:hover {
   top: -3px;
   zoom: 1.1;
   z-index: 2;
 }
-/* line 131, sass/main.sass */
-.tabs-heder .tabs_content .tab_item {
+/* line 121, sass/main.sass */
+.tabs-heder .tab_item {
   display: block;
-  padding: 10px 25px 20px;
   background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 25px 20px;
 }
 
-/* line 136, sass/main.sass */
+/* line 127, sass/main.sass */
 .bg-image {
   height: 45px;
   width: 45px;
@@ -167,23 +159,23 @@ header .fon-white {
   background-size: cover;
 }
 
-/* line 143, sass/main.sass */
+/* line 134, sass/main.sass */
 .caption {
   color: #FFAB00;
   margin-top: 80px;
 }
-/* line 145, sass/main.sass */
+/* line 136, sass/main.sass */
 .caption h2 {
   margin: 0;
   font-family: "CleanvertisingLight";
 }
 
-/* line 150, sass/main.sass */
+/* line 141, sass/main.sass */
 .button--wrappe {
   text-align: right;
 }
 
-/* line 169, sass/main.sass */
+/* line 160, sass/main.sass */
 .button--main {
   border: none;
   cursor: pointer;
