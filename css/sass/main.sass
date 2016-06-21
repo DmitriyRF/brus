@@ -15,13 +15,13 @@ $add-color2: #FF7100
 $contr-color: #123EAB
 $add-contr-fon: #466FD5 //rgba(70, 11, 213, 0.5)
 
-$max-screen-width: (screen1: 320px, screen2: 480px, screen3: 768px, screen4: 992px, screen5: 1200px, screen6: 1440px)
+$max-screen-width: (screen0: 2500px, screen1: 1440px, screen2: 1200px, screen3: 992px, screen4: 768px, screen5: 480px, screen6: 320px)
 
-@for $i from 1 through 6 
-	h5//h#{$i}
-		@if map_has_key($max-screen-width, screen#{$i})
-			@media only screen and (max-width : map_get($max-screen-width, screen#{$i})) 
-				font-size: modular-scale($i)
+@for $i from 0 through 6
+	@if map_has_key($max-screen-width, screen#{$i})
+		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i}))
+			h1
+				font-size: modular-scale(5 - $i) //bourbon function
 
 
 

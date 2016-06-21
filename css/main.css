@@ -1,81 +1,286 @@
-/*
-Error: Properties are only allowed within rules, directives, mixin includes, or other properties.
-        on line 24 of D:/dima/project/brus/css/sass/main.sass
+@media only screen and (max-width: 2500px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 11.08901em;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 6.85353em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 4.2358em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 2.61792em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 1.618em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 23, sass/main.sass */
+  h1 {
+    font-size: 0.61805em;
+  }
+}
+/* line 29, sass/main.sass */
+body {
+  font-family: "RobotoRegular", sans-serif, "Raleway", sans-serif;
+  color: #333;
+  font-weight: normal;
+  font-size: 1.618em;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialiased;
+}
 
-19: 
-20: @for $i from 1 through 6 
-21: 	h5//h#{$i}
-22: 		@if map_has_key($max-screen-width, screen#{$i})
-23: 			@media only screen and (max-width : map_get($max-screen-width, screen#{$i})) 
-24: 				font-size: modular-scale($i)
-25: 
-26: 
-27: 
-28: 
-29: body
+/* line 40, sass/main.sass */
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
 
-Backtrace:
-D:/dima/project/brus/css/sass/main.sass:24
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:38:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:67:in `visit_if'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:38:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:38:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:38:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:24:in `visit'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:35:in `css_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Properties are only allowed within rules, directives, mixin includes, or other properties.\A         on line 24 of D:/dima/project/brus/css/sass/main.sass\A \A 19: \A 20: @for $i from 1 through 6 \A 21: 	h5//h#{$i}\A 22: 		@if map_has_key($max-screen-width, screen#{$i})\A 23: 			@media only screen and (max-width : map_get($max-screen-width, screen#{$i})) \A 24: 				font-size: modular-scale($i)\A 25: \A 26: \A 27: \A 28: \A 29: body"; }
+/* line 43, sass/main.sass */
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+/* line 47, sass/main.sass */
+.hidden {
+  display: none;
+}
+
+/* line 50, sass/main.sass */
+h1 {
+  color: #FFAB00;
+  font-weight: bold;
+  font-family: CleanvertisingLight, sans-serif;
+  margin: 0;
+}
+
+/* line 66, sass/main.sass */
+section {
+  padding: 56px 0 68px;
+}
+/* line 68, sass/main.sass */
+section h2 {
+  color: #FFAB00;
+  line-height: 40px;
+}
+
+/* line 73, sass/main.sass */
+header {
+  min-height: 600px;
+  background-image: url(../img/mainBG.jpeg);
+  background-position: top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #FFAB00;
+}
+/* line 80, sass/main.sass */
+header .heder-logo-tel {
+  margin-top: 30px;
+}
+/* line 82, sass/main.sass */
+header .logo {
+  font-size: 40px;
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  /* line 82, sass/main.sass */
+  header .logo {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+}
+/* line 91, sass/main.sass */
+header .fon-white {
+  background: rgba(100, 100, 100, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 109, sass/main.sass */
+.tel {
+  text-align: right;
+}
+/* line 97, sass/main.sass */
+.tel .js-wrapper .active {
+  color: #FF7100;
+  text-decoration: underline;
+}
+/* line 100, sass/main.sass */
+.tel .js-wrapper .tab {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 104, sass/main.sass */
+.tel .js-wrapper .tab_item {
+  color: #FF7100;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "RobotoBold";
+}
+@media only screen and (max-width: 768px) {
+  /* line 109, sass/main.sass */
+  .tel {
+    text-align: center;
+  }
+}
+
+/* line 116, sass/main.sass */
+.tabs-heder {
+  margin: 50px 0 20px;
+}
+@media only screen and (max-width: 768px) {
+  /* line 116, sass/main.sass */
+  .tabs-heder {
+    font-size: 12px;
+    margin-top: 25px;
+  }
+}
+/* line 122, sass/main.sass */
+.tabs-heder .tabs .tab {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer;
+  font-family: "RobotoBold", sans-serif;
+  color: #FFD700;
+  /*+transition(all .2s ease) */
+}
+/* line 132, sass/main.sass */
+.tabs-heder .tabs .tab.active {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #FF7100;
+}
+/* line 135, sass/main.sass */
+.tabs-heder .tab_content {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 25px 20px;
+}
+/* line 136, sass/main.sass */
+.tabs-heder .tab_content ul, .tabs-heder .tab_content li {
+  margin: 0;
+  padding: 0;
+}
+/* line 139, sass/main.sass */
+.tabs-heder .tab_content li {
+  list-style-type: none;
+  min-height: 45px;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+/* line 146, sass/main.sass */
+.tabs-heder .tab_content li:hover {
+  top: -3px;
+  /*zoom: 1.1 */
+  z-index: 2;
+}
+/* line 150, sass/main.sass */
+.tabs-heder .tab_content h4 {
+  padding: 14px 0 14px 65px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* line 160, sass/main.sass */
+.bg-image {
+  height: 45px;
+  width: 45px;
+  float: left;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* line 167, sass/main.sass */
+.caption {
+  color: #FFAB00;
+  margin-top: 80px;
+}
+/* line 169, sass/main.sass */
+.caption h2 {
+  font-weight: bold;
+  margin: 0;
+  font-family: "CleanvertisingLight";
+}
+@media only screen and (max-width: 768px) {
+  /* line 167, sass/main.sass */
+  .caption {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 167, sass/main.sass */
+  .caption {
+    font-size: 25px;
+  }
+}
+
+/* line 180, sass/main.sass */
+.button--wrappe {
+  text-align: right;
+}
+/* line 183, sass/main.sass */
+.button--wrappe a:hover, .button--wrappe a:focus, .button--wrappe a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 203, sass/main.sass */
+.button {
+  border: none;
+  cursor: pointer;
+  padding: 0 32px;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  background-color: #000;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "RobotoRegular";
+}
+/* line 205, sass/main.sass */
+.button.btn_red {
+  background-color: #FF7100;
+}
+
+/* line 208, sass/main.sass */
+a .button {
+  text-decoration: none;
+  color: #fff;
+}
