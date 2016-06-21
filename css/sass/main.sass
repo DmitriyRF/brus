@@ -39,6 +39,15 @@ h1
 	font-weight: bold
 	font-family: CleanvertisingLight, sans-serif
 	margin: 0
+	@media only screen and (min-width : 1440px)
+		font-size: 100px
+		line-height: 56px
+	@media only screen and (max-width : 768px)
+
+	@media only screen and (max-width : 320px)
+		font-size: 35px
+		line-height: 1.1
+
 
 section
 	padding: 56px 0 68px
@@ -55,10 +64,17 @@ header
 	-webkit-background-size: cover
 	background-size: cover
 	color: $main-color
+	.heder-logo-tel
+		margin-top: 30px
 	.logo
 		font-size: 40px
+		@media only screen and (max-width : 768px)
+			text-align: center
+			margin-bottom: 15px
+			font-size: 20px
 		font-family: $main-font-family
 		font-weight: bold
+
 	.fon-white
 		background: rgba(100, 100, 100, 0.7) //rgba(255,255,255,0.73)
 		width: 100%
@@ -73,6 +89,7 @@ header
 		text-transform: uppercase
 		cursor: pointer
 	.tab_item
+		color: $add-color2
 		font-size: 35px
 		text-transform: uppercase
 		font-family: "RobotoBold"
@@ -80,11 +97,16 @@ header
 	text-align: right
 	.js-wrapper
 		+style-for-tabs()
+	@media only screen and (max-width : 768px)
+		text-align: center
 
 .tabs-heder
 	margin: 50px 0 20px
+	@media only screen and (max-width : 768px)
+		font-size: 12px
+		margin-top: 25px
 	.tabs
-		span
+		.tab
 			display: inline-block
 			padding: 10px 25px
 			background-color: rgba(255, 255, 255, .35)
@@ -132,9 +154,15 @@ header
 .caption
 	color: $main-color
 	h2
+		font-weight: bold
 		margin: 0
 		font-family: "CleanvertisingLight"
 	margin-top: 80px
+	@media only screen and (max-width : 768px)
+		text-align: center
+		font-size: 40px
+	@media only screen and (max-width : 320px)
+		font-size: 25px
 
 .button--wrappe
 	text-align: right
@@ -158,11 +186,11 @@ header
 	text-decoration: none
 	font-size: 16px
 	font-family: "RobotoRegular"
-	&.btn_red
-		background-color: $add-color2
 
 .button
 	+main-button()
+	&.btn_red
+		background-color: $add-color2
 
 a .button
 	text-decoration: none

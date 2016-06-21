@@ -36,19 +36,33 @@ h1 {
   font-family: CleanvertisingLight, sans-serif;
   margin: 0;
 }
+@media only screen and (min-width: 1440px) {
+  /* line 35, sass/main.sass */
+  h1 {
+    font-size: 100px;
+    line-height: 56px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 35, sass/main.sass */
+  h1 {
+    font-size: 35px;
+    line-height: 1.1;
+  }
+}
 
-/* line 43, sass/main.sass */
+/* line 52, sass/main.sass */
 section {
   padding: 56px 0 68px;
 }
-/* line 45, sass/main.sass */
+/* line 54, sass/main.sass */
 section h2 {
   color: #FFAB00;
   font-size: 50px;
   line-height: 40px;
 }
 
-/* line 51, sass/main.sass */
+/* line 60, sass/main.sass */
 header {
   min-height: 600px;
   background-image: url(../img/mainBG.jpeg);
@@ -57,29 +71,41 @@ header {
   background-size: cover;
   color: #FFAB00;
 }
-/* line 58, sass/main.sass */
+/* line 67, sass/main.sass */
+header .heder-logo-tel {
+  margin-top: 30px;
+}
+/* line 69, sass/main.sass */
 header .logo {
   font-size: 40px;
   font-family: "RobotoRegular", sans-serif;
   font-weight: bold;
 }
-/* line 62, sass/main.sass */
+@media only screen and (max-width: 768px) {
+  /* line 69, sass/main.sass */
+  header .logo {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+}
+/* line 78, sass/main.sass */
 header .fon-white {
   background: rgba(100, 100, 100, 0.7);
   width: 100%;
   height: 100%;
 }
 
-/* line 79, sass/main.sass */
+/* line 96, sass/main.sass */
 .tel {
   text-align: right;
 }
-/* line 68, sass/main.sass */
+/* line 84, sass/main.sass */
 .tel .js-wrapper .active {
   color: #FF7100;
   text-decoration: underline;
 }
-/* line 71, sass/main.sass */
+/* line 87, sass/main.sass */
 .tel .js-wrapper .tab {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -87,19 +113,33 @@ header .fon-white {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 75, sass/main.sass */
+/* line 91, sass/main.sass */
 .tel .js-wrapper .tab_item {
+  color: #FF7100;
   font-size: 35px;
   text-transform: uppercase;
   font-family: "RobotoBold";
 }
+@media only screen and (max-width: 768px) {
+  /* line 96, sass/main.sass */
+  .tel {
+    text-align: center;
+  }
+}
 
-/* line 84, sass/main.sass */
+/* line 103, sass/main.sass */
 .tabs-heder {
   margin: 50px 0 20px;
 }
-/* line 87, sass/main.sass */
-.tabs-heder .tabs span {
+@media only screen and (max-width: 768px) {
+  /* line 103, sass/main.sass */
+  .tabs-heder {
+    font-size: 12px;
+    margin-top: 25px;
+  }
+}
+/* line 109, sass/main.sass */
+.tabs-heder .tabs .tab {
   display: inline-block;
   padding: 10px 25px;
   background-color: rgba(255, 255, 255, 0.35);
@@ -110,23 +150,23 @@ header .fon-white {
   color: #FFD700;
   /*+transition(all .2s ease) */
 }
-/* line 97, sass/main.sass */
-.tabs-heder .tabs span.active {
+/* line 119, sass/main.sass */
+.tabs-heder .tabs .tab.active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #FF7100;
 }
-/* line 100, sass/main.sass */
+/* line 122, sass/main.sass */
 .tabs-heder .tab_content {
   display: block;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 10px 25px 20px;
 }
-/* line 101, sass/main.sass */
+/* line 123, sass/main.sass */
 .tabs-heder .tab_content ul, .tabs-heder .tab_content li {
   margin: 0;
   padding: 0;
 }
-/* line 104, sass/main.sass */
+/* line 126, sass/main.sass */
 .tabs-heder .tab_content li {
   list-style-type: none;
   min-height: 45px;
@@ -135,20 +175,20 @@ header .fon-white {
   top: 0;
   z-index: 1;
 }
-/* line 111, sass/main.sass */
+/* line 133, sass/main.sass */
 .tabs-heder .tab_content li:hover {
   top: -3px;
   /*zoom: 1.1 */
   z-index: 2;
 }
-/* line 115, sass/main.sass */
+/* line 137, sass/main.sass */
 .tabs-heder .tab_content h4 {
   padding: 14px 0 14px 65px;
   margin: 0;
   vertical-align: middle;
 }
 
-/* line 125, sass/main.sass */
+/* line 147, sass/main.sass */
 .bg-image {
   height: 45px;
   width: 45px;
@@ -157,28 +197,42 @@ header .fon-white {
   background-size: cover;
 }
 
-/* line 132, sass/main.sass */
+/* line 154, sass/main.sass */
 .caption {
   color: #FFAB00;
   margin-top: 80px;
 }
-/* line 134, sass/main.sass */
+/* line 156, sass/main.sass */
 .caption h2 {
+  font-weight: bold;
   margin: 0;
   font-family: "CleanvertisingLight";
 }
+@media only screen and (max-width: 768px) {
+  /* line 154, sass/main.sass */
+  .caption {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 154, sass/main.sass */
+  .caption {
+    font-size: 25px;
+  }
+}
 
-/* line 139, sass/main.sass */
+/* line 167, sass/main.sass */
 .button--wrappe {
   text-align: right;
 }
-/* line 142, sass/main.sass */
+/* line 170, sass/main.sass */
 .button--wrappe a:hover, .button--wrappe a:focus, .button--wrappe a:active {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 164, sass/main.sass */
+/* line 190, sass/main.sass */
 .button {
   border: none;
   cursor: pointer;
@@ -195,12 +249,12 @@ header .fon-white {
   font-size: 16px;
   font-family: "RobotoRegular";
 }
-/* line 161, sass/main.sass */
+/* line 192, sass/main.sass */
 .button.btn_red {
   background-color: #FF7100;
 }
 
-/* line 167, sass/main.sass */
+/* line 195, sass/main.sass */
 a .button {
   text-decoration: none;
   color: #fff;
