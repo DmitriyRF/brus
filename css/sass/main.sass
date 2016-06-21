@@ -4,8 +4,6 @@ $text-color: #333
 
 $font-size: 16px
 $em-base: 16px //bourbon
-$modular-scale-ratio: $golden //$golden=1.618 //bourbon
-$modular-scale-base: 1em //bourbon
 
 $main-font-family: "RobotoRegular", sans-serif
 
@@ -13,16 +11,23 @@ $main-color: #FFAB00
 $add-color1: #FFD700
 $add-color2: #FF7100
 $contr-color: #123EAB
-$add-contr-fon: #466FD5 //rgba(70, 11, 213, 0.5)
+$add-contr-fon: #466FD5 
 
+/*--------------------------  START MEDIA REQUEST  --------------------------*/
+$modular-scale-ratio: 1.2 //$golden=1.618 //bourbon
+$modular-scale-base: 1.7em //bourbon
 $max-screen-width: (screen0: 2500px, screen1: 1440px, screen2: 1200px, screen3: 992px, screen4: 768px, screen5: 480px, screen6: 320px)
 
 @for $i from 0 through 6
 	@if map_has_key($max-screen-width, screen#{$i})
 		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i}))
 			h1
+				font-size: modular-scale(7 - $i) //bourbon function
+			h2
 				font-size: modular-scale(5 - $i) //bourbon function
-
+			.logo
+				font-size: modular-scale(6 - $i)
+/*--------------------------  END MEDIA REQUEST  --------------------------*/
 
 
 
@@ -30,10 +35,10 @@ body
 	font-family: $main-font-family,"Raleway", sans-serif
 	color: $text-color
 	font-weight: normal
-	font-size: modular-scale(1)
+	font-size: $font-size
 	min-width: 320px
 	position: relative
-	line-height: 1.42857
+	line-height: 1.43
 	-webkit-font-smoothing: antialiased
 
 
@@ -49,25 +54,9 @@ body textarea:required:valid
 
 h1
 	color: $main-color
-	// line-height: 56px
 	font-weight: bold
 	font-family: CleanvertisingLight, sans-serif
 	margin: 0
-	// @media only screen and (min-width : 1440px)
-	// 	font-size: 100px
-	// 	line-height: 56px
-	// @media only screen and (max-width : 768px)
-
-	// @media only screen and (max-width : 320px)
-	// 	font-size: 35px
-	// 	line-height: 1.1
-
-
-section
-	padding: 56px 0 68px
-	h2
-		color: $main-color
-		line-height: 40px
 
 
 header
@@ -80,16 +69,15 @@ header
 	.heder-logo-tel
 		margin-top: 30px
 	.logo
-		font-size: 40px
 		@media only screen and (max-width : 768px)
 			text-align: center
 			margin-bottom: 15px
-			font-size: 20px
+		vertical-align: middle
 		font-family: $main-font-family
 		font-weight: bold
 
 	.fon-white
-		background: rgba(100, 100, 100, 0.7) //rgba(255,255,255,0.73)
+		background: rgba(100, 100, 100, 0.8) //rgba(255,255,255,0.73)
 		width: 100%
 		height: 100%
 
@@ -119,8 +107,20 @@ header
 		font-size: 12px
 		margin-top: 25px
 	.tabs
+		@media only screen and (max-width : 480px)
+			&:after
+				content: ""
+				display: block
+				width: 100%
+				height: 5px
+				background-color: $add-color2
 		.tab
 			display: inline-block
+			@media only screen and (max-width : 480px)
+				display: block
+				width: 100%
+				&.active
+					font-weight: bold
 			padding: 10px 25px
 			background-color: rgba(255, 255, 255, .35)
 			text-transform: uppercase
@@ -145,7 +145,6 @@ header
 			z-index: 1
 			&:hover
 				top: -3px
-				/*zoom: 1.1*/
 				z-index: 2
 		h4
 			padding: 14px 0 14px 65px
@@ -165,17 +164,15 @@ header
 	background-size: cover
 
 .caption
+	margin-top: 80px
 	color: $main-color
 	h2
 		font-weight: bold
 		margin: 0
 		font-family: "CleanvertisingLight"
-	margin-top: 80px
 	@media only screen and (max-width : 768px)
+		margin-top: 20px
 		text-align: center
-		font-size: 40px
-	@media only screen and (max-width : 320px)
-		font-size: 25px
 
 .button--wrappe
 	text-align: right
@@ -208,6 +205,13 @@ header
 a .button
 	text-decoration: none
 	color: #fff
+
+
+section
+	padding: 56px 0 68px
+	h2
+		color: $main-color
+		line-height: 40px
 
 
 
