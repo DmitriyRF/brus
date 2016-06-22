@@ -14,19 +14,28 @@ $contr-color: #123EAB
 $add-contr-fon: #466FD5 
 
 /*--------------------------  START MEDIA REQUEST  --------------------------*/
-$modular-scale-ratio: 1.2 //$golden=1.618 //bourbon
-$modular-scale-base: 1.7em //bourbon
-$max-screen-width: (screen0: 2500px, screen1: 1440px, screen2: 1200px, screen3: 992px, screen4: 768px, screen5: 480px, screen6: 320px)
+$modular-scale-ratio: 1.1 //$golden=1.618 //bourbon
+$modular-scale-base: 1.8em //bourbon
+// $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1200px, screen4: 992px, screen5: 768px, screen6: 480px, screen7: 320px)
+$max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
 
-@for $i from 0 through 6
+@for $i from 0 through 5
 	@if map_has_key($max-screen-width, screen#{$i})
 		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i}))
 			h1
-				font-size: modular-scale(7 - $i) //bourbon function
+				font-size: modular-scale(6 - $i) //bourbon function
 			h2
-				font-size: modular-scale(5 - $i) //bourbon function
+				font-size: modular-scale(3 - $i) //bourbon function
+			h3
+				font-size: modular-scale(0 - $i) //bourbon function
+			h4
+				font-size: modular-scale(-3 - $i) //bourbon function
+			.tel .tab_content //h2
+				font-size: modular-scale(3 - $i) //bourbon function
+			.tel .tabs //h3-h4
+				font-size: modular-scale(-3 - $i)//bourbon function
 			.logo
-				font-size: modular-scale(6 - $i)
+				font-size: modular-scale(3 - $i) //bourbon function
 /*--------------------------  END MEDIA REQUEST  --------------------------*/
 
 
@@ -58,7 +67,6 @@ h1
 	font-family: CleanvertisingLight, sans-serif
 	margin: 0
 
-
 header
 	min-height: 600px
 	background-image: url(../img/mainBG.jpeg)
@@ -69,7 +77,7 @@ header
 	.heder-logo-tel
 		margin-top: 30px
 	.logo
-		@media only screen and (max-width : 768px)
+		@media only screen and (max-width : 992px)
 			text-align: center
 			margin-bottom: 15px
 		vertical-align: middle
@@ -91,20 +99,18 @@ header
 		cursor: pointer
 	.tab_item
 		color: $add-color2
-		font-size: 35px
 		text-transform: uppercase
 		font-family: "RobotoBold"
 .tel
 	text-align: right
 	.js-wrapper
 		+style-for-tabs()
-	@media only screen and (max-width : 768px)
+	@media only screen and (max-width : 992px)
 		text-align: center
 
 .tabs-heder
 	margin: 50px 0 20px
 	@media only screen and (max-width : 768px)
-		font-size: 12px
 		margin-top: 25px
 	.tabs
 		@media only screen and (max-width : 480px)
@@ -153,6 +159,9 @@ header
 		display: block
 		background-color: rgba(255, 255, 255, .85)
 		padding: 10px 25px 20px
+		@media only screen and (max-width : 480px)
+			padding: 10px	
+
 
 		
 
@@ -170,12 +179,17 @@ header
 		font-weight: bold
 		margin: 0
 		font-family: "CleanvertisingLight"
+	@media only screen and (max-width : 992px)
+		margin-top: 40px
 	@media only screen and (max-width : 768px)
 		margin-top: 20px
 		text-align: center
 
 .button--wrappe
 	text-align: right
+	margin-top: 15px
+	@media only screen and (max-width : 480px)
+		text-align: center
 	a
 		&:hover, &:focus, &:active
 			text-decoration: none
@@ -188,7 +202,6 @@ header
 	display: inline-block
 	height: 45px
 	line-height: 45px
-	background-color: #000
 	text-transform: uppercase
 	border-radius: 3px
 	color: #fff
@@ -199,6 +212,8 @@ header
 
 .button
 	+main-button()
+	@media only screen and (max-width : 480px)
+		padding: 0 16px
 	&.btn_red
 		background-color: $add-color2
 
@@ -206,12 +221,32 @@ a .button
 	text-decoration: none
 	color: #fff
 
+.back_call
+	padding: 80px 0
+	text-align: center
+	border-bottom: 30px solid $add-color1
+	border-bottom-right-radius: 60% 15%
+	border-bottom-left-radius: 60% 15%
+	// border-radius: 50% 30px / 50% 30px
+	background-color: $add-color1
+	h3
+		text-transform: uppercase
+	input
+		margin: 20px 20px 0
+		display: inline-block
+		padding: 7px
+		&[type="submit"]
+			padding: 7px 60px
+			text-transform: uppercase
+			border-radius: 5px
+		
 
-section
-	padding: 56px 0 68px
-	h2
-		color: $main-color
-		line-height: 40px
+
+// section
+// 	padding: 56px 0 68px
+// 	h2
+// 		color: $main-color
+// 		line-height: 40px
 
 
 

@@ -1,3 +1,20 @@
+@media only screen and (max-width: 2600px) {
+  /* line 25, sass/main.sass */
+  h1 {
+    font-size: 5.07617em;
+  }
+
+  /* line 27, sass/main.sass */
+  h2 {
+    font-size: 3.52512em;
+  }
+
+  /* line 29, sass/main.sass */
+  .logo {
+    font-size: 4.23014em;
+  }
+}
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
