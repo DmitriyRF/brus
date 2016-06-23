@@ -12,7 +12,8 @@ $add-color1: #FFD700
 $add-color2: #FF7100
 $contr-color: #123EAB
 $add-contr-fon: #466FD5 
-
+html
+	font-size: $font-size
 /*--------------------------  START MEDIA REQUEST  --------------------------*/
 $modular-scale-ratio: 1.1 //$golden=1.618 //bourbon
 $modular-scale-base: 1.8em //bourbon
@@ -30,12 +31,15 @@ $max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 7
 				font-size: modular-scale(0 - $i) //bourbon function
 			h4
 				font-size: modular-scale(-3 - $i) //bourbon function
+			p 
+				font-size: modular-scale(-3 - $i) //bourbon function	
 			.tel .tab_content //h2
 				font-size: modular-scale(3 - $i) //bourbon function
 			.tel .tabs //h3-h4
 				font-size: modular-scale(-3 - $i)//bourbon function
 			.logo
 				font-size: modular-scale(3 - $i) //bourbon function
+
 /*--------------------------  END MEDIA REQUEST  --------------------------*/
 
 
@@ -44,7 +48,6 @@ body
 	font-family: $main-font-family,"Raleway", sans-serif
 	color: $text-color
 	font-weight: normal
-	font-size: $font-size
 	min-width: 320px
 	position: relative
 	line-height: 1.43
@@ -60,6 +63,11 @@ body textarea:required:valid
 
 .hidden
 	display: none
+button, 
+button:active, 
+button:focus,
+input
+	outline: none
 
 h1
 	color: $main-color
@@ -203,7 +211,7 @@ header
 	height: 45px
 	line-height: 45px
 	text-transform: uppercase
-	border-radius: 3px
+	border-radius: 5px
 	color: #fff
 	text-align: center
 	text-decoration: none
@@ -221,22 +229,27 @@ a .button
 	text-decoration: none
 	color: #fff
 
+.tizer
+	padding: 30px 0
+	text-align: center
+	background-color: $add-color2
+	h3 
+		margin: 0 0 15px
 .back_call
 	padding: 80px 0
 	text-align: center
 	border-bottom: 30px solid $add-color1
-	border-bottom-right-radius: 60% 15%
-	border-bottom-left-radius: 60% 15%
-	// border-radius: 50% 30px / 50% 30px
+	border-bottom-right-radius: 70% 15%
+	border-bottom-left-radius: 70% 15%
 	background-color: $add-color1
 	h3
 		text-transform: uppercase
 	input
 		margin: 20px 20px 0
 		display: inline-block
-		padding: 7px
+		padding: 7px 7px 7px 20px
 		&[type="submit"]
-			padding: 7px 60px
+			padding: 7px 70px
 			text-transform: uppercase
 			border-radius: 5px
 		
@@ -248,6 +261,31 @@ a .button
 // 		color: $main-color
 // 		line-height: 40px
 
+
+@media only screen and (min-width : 1400px) and (min-height : 850px) 
+	.caption 
+		margin-top: 100px
+	.tabs-heder
+		margin-top: 100px
+	.heder-logo-tel
+		margin-top: 50px
+@media only screen and (min-width : 2000px) and (min-height : 1100px) 
+	.caption 
+		margin-top: 200px
+	.tabs-heder
+		margin-top: 200px
+	.heder-logo-tel
+		margin-top: 100px
+@media only screen and (min-width : 2500px) and (min-height : 1400px) 
+	.caption 
+		margin-top: 250px
+	.tabs-heder
+		margin-top: 250px
+	.heder-logo-tel
+		margin-top: 150px
+
+
+	
 
 
 	

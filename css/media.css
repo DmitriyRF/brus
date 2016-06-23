@@ -1,17 +1,37 @@
 @media only screen and (max-width: 2600px) {
   /* line 25, sass/main.sass */
   h1 {
-    font-size: 5.07617em;
+    font-size: 3.18881em;
   }
 
   /* line 27, sass/main.sass */
   h2 {
-    font-size: 3.52512em;
+    font-size: 2.3958em;
   }
 
   /* line 29, sass/main.sass */
+  h3 {
+    font-size: 1.8em;
+  }
+
+  /* line 31, sass/main.sass */
+  h4 {
+    font-size: 1.35237em;
+  }
+
+  /* line 33, sass/main.sass */
+  .tel .tab_content {
+    font-size: 2.3958em;
+  }
+
+  /* line 35, sass/main.sass */
+  .tel .tabs {
+    font-size: 1.35237em;
+  }
+
+  /* line 37, sass/main.sass */
   .logo {
-    font-size: 4.23014em;
+    font-size: 2.3958em;
   }
 }
 
@@ -68,3 +88,4 @@
 @media only screen and (min-width : 1200px) {
 
 }
+

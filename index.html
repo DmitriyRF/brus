@@ -69,7 +69,7 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-10 col-xs-12">
 						<!-- begin tabs-heder -->
-						<div class="tabs-heder .clearfix">
+						<div class="tabs-heder clearfix">
 							<div class="js-wrapper">
 								<div class="tabs clearfix">
 									<span class="tab">Преимущества</span>
@@ -101,7 +101,13 @@
 										</ul>
 									</div>
 									<div class="tab_item">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque incidunt laboriosam modi repudiandae unde!
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur.
+										</p>
 									</div>
 										<div class="button--wrappe">
 											<a href="#" class="btn  btn-warning button">Начать строительство</a>
@@ -116,16 +122,51 @@
 		</div>
 	</header>
 	<main>
+		<section class="tizer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3>ПРОЕКТЫ ГОТОВЫХ БАНЬ</h3>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="imcp">
+									text	
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<img src="" class="img-circle img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="imcp">
+									text	
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="imcp">
+									text	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="back_call">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h3>Узнать все подробности прямо сейчас:</h3>
-						<form name="call_back" method="post" action="">
-							<input type="text"  size="25">
-							<input type="tel"  size="25">
+						<h3>Узнайте все подробности прямо сейчас:</h3>
+						<form name="call_back" method="post" actions="" autocomplete="true" >
+							<input type="text" name="text" form="call_back" autocomplete="true"  size="25" placeholder="Ваше имя">
+							<input type="tel" name="tel" form="call_back"  autocomplete="true"  size="25" placeholder="Ваш телефон" >
 							<div class="clearfix"></div>
-							<input type="submit" value="Отправить">
+							<input class="btn-warning" type="submit" name="submit" value="Отправить" form="call_back" >
 						</form>
 					</div>
 				</div>

@@ -1,251 +1,293 @@
+/* line 15, sass/main.sass */
+html {
+  font-size: 16px;
+}
+
 /*--------------------------  START MEDIA REQUEST  -------------------------- */
 @media only screen and (max-width: 1440px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 3.18881em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 2.3958em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.8em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 1.35237em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 1.35237em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 2.3958em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 1.35237em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 2.3958em;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 2.89892em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 2.178em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.63636em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 1.22942em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 1.22942em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 2.178em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 1.22942em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 2.178em;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 2.63538em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 1.98em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.4876em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 1.11766em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 1.11766em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 1.98em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 1.11766em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 1.98em;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 2.3958em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 1.8em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.35237em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 1.01605em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 1.01605em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 1.8em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 1.01605em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 1.8em;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 2.178em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 1.63636em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.22942em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 0.92368em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 0.92368em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 1.63636em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 0.92368em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 1.63636em;
   }
 }
 @media only screen and (max-width: 320px) {
-  /* line 25, sass/main.sass */
+  /* line 26, sass/main.sass */
   h1 {
     font-size: 1.98em;
   }
 
-  /* line 27, sass/main.sass */
+  /* line 28, sass/main.sass */
   h2 {
     font-size: 1.4876em;
   }
 
-  /* line 29, sass/main.sass */
+  /* line 30, sass/main.sass */
   h3 {
     font-size: 1.11766em;
   }
 
-  /* line 31, sass/main.sass */
+  /* line 32, sass/main.sass */
   h4 {
     font-size: 0.83971em;
   }
 
-  /* line 33, sass/main.sass */
+  /* line 34, sass/main.sass */
+  p {
+    font-size: 0.83971em;
+  }
+
+  /* line 36, sass/main.sass */
   .tel .tab_content {
     font-size: 1.4876em;
   }
 
-  /* line 35, sass/main.sass */
+  /* line 38, sass/main.sass */
   .tel .tabs {
     font-size: 0.83971em;
   }
 
-  /* line 37, sass/main.sass */
+  /* line 40, sass/main.sass */
   .logo {
     font-size: 1.4876em;
   }
 }
 /*--------------------------  END MEDIA REQUEST  -------------------------- */
-/* line 43, sass/main.sass */
+/* line 47, sass/main.sass */
 body {
   font-family: "RobotoRegular", sans-serif, "Raleway", sans-serif;
   color: #333;
   font-weight: normal;
-  font-size: 16px;
   min-width: 320px;
   position: relative;
   line-height: 1.43;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 54, sass/main.sass */
+/* line 57, sass/main.sass */
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red;
 }
 
-/* line 57, sass/main.sass */
+/* line 60, sass/main.sass */
 body input:required:valid,
 body textarea:required:valid {
   color: green;
 }
 
-/* line 61, sass/main.sass */
+/* line 64, sass/main.sass */
 .hidden {
   display: none;
 }
 
-/* line 64, sass/main.sass */
+/* line 66, sass/main.sass */
+button,
+button:active,
+button:focus,
+input {
+  outline: none;
+}
+
+/* line 72, sass/main.sass */
 h1 {
   color: #FFAB00;
   font-weight: bold;
@@ -253,7 +295,7 @@ h1 {
   margin: 0;
 }
 
-/* line 70, sass/main.sass */
+/* line 78, sass/main.sass */
 header {
   min-height: 600px;
   background-image: url(../img/mainBG.jpeg);
@@ -262,40 +304,40 @@ header {
   background-size: cover;
   color: #FFAB00;
 }
-/* line 77, sass/main.sass */
+/* line 85, sass/main.sass */
 header .heder-logo-tel {
   margin-top: 30px;
 }
-/* line 79, sass/main.sass */
+/* line 87, sass/main.sass */
 header .logo {
   vertical-align: middle;
   font-family: "RobotoRegular", sans-serif;
   font-weight: bold;
 }
 @media only screen and (max-width: 992px) {
-  /* line 79, sass/main.sass */
+  /* line 87, sass/main.sass */
   header .logo {
     text-align: center;
     margin-bottom: 15px;
   }
 }
-/* line 87, sass/main.sass */
+/* line 95, sass/main.sass */
 header .fon-white {
   background: rgba(100, 100, 100, 0.8);
   width: 100%;
   height: 100%;
 }
 
-/* line 104, sass/main.sass */
+/* line 112, sass/main.sass */
 .tel {
   text-align: right;
 }
-/* line 93, sass/main.sass */
+/* line 101, sass/main.sass */
 .tel .js-wrapper .active {
   color: #FF7100;
   text-decoration: underline;
 }
-/* line 96, sass/main.sass */
+/* line 104, sass/main.sass */
 .tel .js-wrapper .tab {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -303,31 +345,31 @@ header .fon-white {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 100, sass/main.sass */
+/* line 108, sass/main.sass */
 .tel .js-wrapper .tab_item {
   color: #FF7100;
   text-transform: uppercase;
   font-family: "RobotoBold";
 }
 @media only screen and (max-width: 992px) {
-  /* line 104, sass/main.sass */
+  /* line 112, sass/main.sass */
   .tel {
     text-align: center;
   }
 }
 
-/* line 111, sass/main.sass */
+/* line 119, sass/main.sass */
 .tabs-heder {
   margin: 50px 0 20px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 111, sass/main.sass */
+  /* line 119, sass/main.sass */
   .tabs-heder {
     margin-top: 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 117, sass/main.sass */
+  /* line 125, sass/main.sass */
   .tabs-heder .tabs:after {
     content: "";
     display: block;
@@ -336,7 +378,7 @@ header .fon-white {
     background-color: #FF7100;
   }
 }
-/* line 123, sass/main.sass */
+/* line 131, sass/main.sass */
 .tabs-heder .tabs .tab {
   display: inline-block;
   padding: 10px 25px;
@@ -349,33 +391,33 @@ header .fon-white {
   /*+transition(all .2s ease) */
 }
 @media only screen and (max-width: 480px) {
-  /* line 123, sass/main.sass */
+  /* line 131, sass/main.sass */
   .tabs-heder .tabs .tab {
     display: block;
     width: 100%;
   }
-  /* line 128, sass/main.sass */
+  /* line 136, sass/main.sass */
   .tabs-heder .tabs .tab.active {
     font-weight: bold;
   }
 }
-/* line 138, sass/main.sass */
+/* line 146, sass/main.sass */
 .tabs-heder .tabs .tab.active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #FF7100;
 }
-/* line 141, sass/main.sass */
+/* line 149, sass/main.sass */
 .tabs-heder .tab_content {
   display: block;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 10px 25px 20px;
 }
-/* line 142, sass/main.sass */
+/* line 150, sass/main.sass */
 .tabs-heder .tab_content ul, .tabs-heder .tab_content li {
   margin: 0;
   padding: 0;
 }
-/* line 145, sass/main.sass */
+/* line 153, sass/main.sass */
 .tabs-heder .tab_content li {
   list-style-type: none;
   min-height: 45px;
@@ -384,25 +426,25 @@ header .fon-white {
   top: 0;
   z-index: 1;
 }
-/* line 152, sass/main.sass */
+/* line 160, sass/main.sass */
 .tabs-heder .tab_content li:hover {
   top: -3px;
   z-index: 2;
 }
-/* line 155, sass/main.sass */
+/* line 163, sass/main.sass */
 .tabs-heder .tab_content h4 {
   padding: 14px 0 14px 65px;
   margin: 0;
   vertical-align: middle;
 }
 @media only screen and (max-width: 480px) {
-  /* line 141, sass/main.sass */
+  /* line 149, sass/main.sass */
   .tabs-heder .tab_content {
     padding: 10px;
   }
 }
 
-/* line 168, sass/main.sass */
+/* line 176, sass/main.sass */
 .bg-image {
   height: 45px;
   width: 45px;
@@ -411,49 +453,49 @@ header .fon-white {
   background-size: cover;
 }
 
-/* line 175, sass/main.sass */
+/* line 183, sass/main.sass */
 .caption {
   margin-top: 80px;
   color: #FFAB00;
 }
-/* line 178, sass/main.sass */
+/* line 186, sass/main.sass */
 .caption h2 {
   font-weight: bold;
   margin: 0;
   font-family: "CleanvertisingLight";
 }
 @media only screen and (max-width: 992px) {
-  /* line 175, sass/main.sass */
+  /* line 183, sass/main.sass */
   .caption {
     margin-top: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 175, sass/main.sass */
+  /* line 183, sass/main.sass */
   .caption {
     margin-top: 20px;
     text-align: center;
   }
 }
 
-/* line 188, sass/main.sass */
+/* line 196, sass/main.sass */
 .button--wrappe {
   text-align: right;
   margin-top: 15px;
 }
 @media only screen and (max-width: 480px) {
-  /* line 188, sass/main.sass */
+  /* line 196, sass/main.sass */
   .button--wrappe {
     text-align: center;
   }
 }
-/* line 194, sass/main.sass */
+/* line 202, sass/main.sass */
 .button--wrappe a:hover, .button--wrappe a:focus, .button--wrappe a:active {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 213, sass/main.sass */
+/* line 221, sass/main.sass */
 .button {
   border: none;
   cursor: pointer;
@@ -462,7 +504,7 @@ header .fon-white {
   height: 45px;
   line-height: 45px;
   text-transform: uppercase;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -470,44 +512,104 @@ header .fon-white {
   font-family: "RobotoRegular";
 }
 @media only screen and (max-width: 480px) {
-  /* line 213, sass/main.sass */
+  /* line 221, sass/main.sass */
   .button {
     padding: 0 16px;
   }
 }
-/* line 217, sass/main.sass */
+/* line 225, sass/main.sass */
 .button.btn_red {
   background-color: #FF7100;
 }
 
-/* line 220, sass/main.sass */
+/* line 228, sass/main.sass */
 a .button {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 224, sass/main.sass */
+/* line 232, sass/main.sass */
+.tizer {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #FF7100;
+}
+/* line 236, sass/main.sass */
+.tizer h3 {
+  margin: 0 0 15px;
+}
+
+/* line 238, sass/main.sass */
 .back_call {
   padding: 80px 0;
   text-align: center;
   border-bottom: 30px solid #FFD700;
-  border-bottom-right-radius: 60% 15%;
-  border-bottom-left-radius: 60% 15%;
+  border-bottom-right-radius: 70% 15%;
+  border-bottom-left-radius: 70% 15%;
   background-color: #FFD700;
 }
-/* line 232, sass/main.sass */
+/* line 245, sass/main.sass */
 .back_call h3 {
   text-transform: uppercase;
 }
-/* line 234, sass/main.sass */
+/* line 247, sass/main.sass */
 .back_call input {
   margin: 20px 20px 0;
   display: inline-block;
-  padding: 7px;
+  padding: 7px 7px 7px 20px;
 }
-/* line 238, sass/main.sass */
+/* line 251, sass/main.sass */
 .back_call input[type="submit"] {
-  padding: 7px 60px;
+  padding: 7px 70px;
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 1400px) and (min-height: 850px) {
+  /* line 266, sass/main.sass */
+  .caption {
+    margin-top: 100px;
+  }
+
+  /* line 268, sass/main.sass */
+  .tabs-heder {
+    margin-top: 100px;
+  }
+
+  /* line 270, sass/main.sass */
+  .heder-logo-tel {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 2000px) and (min-height: 1100px) {
+  /* line 273, sass/main.sass */
+  .caption {
+    margin-top: 200px;
+  }
+
+  /* line 275, sass/main.sass */
+  .tabs-heder {
+    margin-top: 200px;
+  }
+
+  /* line 277, sass/main.sass */
+  .heder-logo-tel {
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-width: 2500px) and (min-height: 1400px) {
+  /* line 280, sass/main.sass */
+  .caption {
+    margin-top: 250px;
+  }
+
+  /* line 282, sass/main.sass */
+  .tabs-heder {
+    margin-top: 250px;
+  }
+
+  /* line 284, sass/main.sass */
+  .heder-logo-tel {
+    margin-top: 150px;
+  }
 }
