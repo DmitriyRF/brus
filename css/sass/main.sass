@@ -16,29 +16,29 @@ html
 	font-size: $font-size
 /*--------------------------  START MEDIA REQUEST  --------------------------*/
 $modular-scale-ratio: 1.1 //$golden=1.618 //bourbon
-$modular-scale-base: 1.8em //bourbon
-// $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1200px, screen4: 992px, screen5: 768px, screen6: 480px, screen7: 320px)
-$max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
+$modular-scale-base: 1.9em //bourbon
+$max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1200px, screen4: 992px, screen5: 768px, screen6: 480px, screen7: 320px)
+// $max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
 
-@for $i from 0 through 5
+@for $i from 0 through 7
 	@if map_has_key($max-screen-width, screen#{$i})
 		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i}))
 			h1
 				font-size: modular-scale(6 - $i) //bourbon function
 			h2
-				font-size: modular-scale(3 - $i) //bourbon function
+				font-size: modular-scale(4 - $i) //bourbon function
 			h3
-				font-size: modular-scale(0 - $i) //bourbon function
+				font-size: modular-scale(2 - $i) //bourbon function
 			h4
-				font-size: modular-scale(-3 - $i) //bourbon function
+				font-size: modular-scale(-1 - $i) //bourbon function
 			p 
-				font-size: modular-scale(-3 - $i) //bourbon function	
+				font-size: modular-scale(-1 - $i) //bourbon function	
 			.tel .tab_content //h2
-				font-size: modular-scale(3 - $i) //bourbon function
+				font-size: modular-scale(4 - $i) //bourbon function
 			.tel .tabs //h3-h4
-				font-size: modular-scale(-3 - $i)//bourbon function
+				font-size: modular-scale(-1 - $i)//bourbon function
 			.logo
-				font-size: modular-scale(3 - $i) //bourbon function
+				font-size: modular-scale(4 - $i) //bourbon function
 
 /*--------------------------  END MEDIA REQUEST  --------------------------*/
 
@@ -93,7 +93,7 @@ header
 		font-weight: bold
 
 	.fon-white
-		background: rgba(100, 100, 100, 0.8) //rgba(255,255,255,0.73)
+		background: rgba(0,0,0,0.4)//rgba(100, 100, 100, 0.8) //rgba(255,255,255,0.73)
 		width: 100%
 		height: 100%
 
@@ -234,7 +234,18 @@ a .button
 	text-align: center
 	background-color: $add-color2
 	h3 
-		margin: 0 0 15px
+		margin: 0 0 35px
+	img
+		margin: 5vmin
+		width: 25vmin
+		height: 25vmin
+		border-radius: 50%
+		overflow: hidden
+		// transform: translateZ(0)
+		box-shadow: inset 0 0 0 8px rgba(255,255,255,0.8)
+
+
+
 .back_call
 	padding: 80px 0
 	text-align: center
@@ -276,6 +287,9 @@ a .button
 		margin-top: 200px
 	.heder-logo-tel
 		margin-top: 100px
+	.tizer img
+		max-width: 230px
+		max-height: 230px
 @media only screen and (min-width : 2500px) and (min-height : 1400px) 
 	.caption 
 		margin-top: 250px
@@ -283,6 +297,7 @@ a .button
 		margin-top: 250px
 	.heder-logo-tel
 		margin-top: 150px
+
 
 
 	

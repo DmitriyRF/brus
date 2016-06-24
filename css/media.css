@@ -1,37 +1,81 @@
-@media only screen and (max-width: 2600px) {
+@media only screen and (max-width: 3000px) {
   /* line 25, sass/main.sass */
   h1 {
-    font-size: 3.18881em;
+    font-size: 5em;
   }
 
   /* line 27, sass/main.sass */
   h2 {
-    font-size: 2.3958em;
+    font-size: 4em;
   }
 
   /* line 29, sass/main.sass */
   h3 {
-    font-size: 1.8em;
+    font-size: 3em;
   }
 
   /* line 31, sass/main.sass */
   h4 {
-    font-size: 1.35237em;
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 2.237em;
   }
 
   /* line 33, sass/main.sass */
   .tel .tab_content {
-    font-size: 2.3958em;
+    font-size: 3.8em;
   }
 
   /* line 35, sass/main.sass */
   .tel .tabs {
-    font-size: 1.35237em;
+    font-size: 2.5em;
   }
 
   /* line 37, sass/main.sass */
   .logo {
-    font-size: 2.3958em;
+    font-size: 3.8em;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  /* line 25, sass/main.sass */
+  h1 {
+    font-size: 3.5em;
+  }
+
+  /* line 27, sass/main.sass */
+  h2 {
+    font-size: 2.7em;
+  }
+
+  /* line 29, sass/main.sass */
+  h3 {
+    font-size: 2em;
+  }
+
+  /* line 31, sass/main.sass */
+  h4 {
+    font-size: 1.77em;
+  }
+  p {
+    font-size: 1.9em;
+  }
+
+
+  /* line 33, sass/main.sass */
+  .tel .tab_content {
+    font-size: 2.8em;
+  }
+
+  /* line 35, sass/main.sass */
+  .tel .tabs {
+    font-size: 1.7em;
+  }
+
+  /* line 37, sass/main.sass */
+  .logo {
+    font-size: 2.8em;
   }
 }
 
