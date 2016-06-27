@@ -23,6 +23,12 @@ jQuery(document).ready(function ($) {
         $(".tabs-heder .js-wrapper .tab_item").hide().eq($(this).index()).fadeIn()
     }).eq(0).addClass("active");
 
+    $(".js-project .tab_item").not(":first").hide();
+    $(".js-project .tab").click(function() {
+        $(".js-project .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".js-project .tab_item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("active");
+
     //Цели для Яндекс.Метрики и Google Analytics ------------+-------------
     $(".count_element").on("click", (function () {
         ga("send", "event", "goal", "goal");

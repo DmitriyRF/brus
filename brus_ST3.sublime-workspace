@@ -1,0 +1,752 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"picture",
+				"picture-letter-a"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"add",
+				"add-color1"
+			],
+			[
+				"t",
+				"tel"
+			],
+			[
+				"tab_",
+				"tab_content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"bxsh",
+				"bxsh	box-shadow: ${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color};"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border-top",
+				"border-top-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"disp",
+				"display"
+			],
+			[
+				"tr",
+				"trsde	transition-delay"
+			],
+			[
+				"trn",
+				"transition"
+			],
+			[
+				"p",
+				"pb	padding-bottom"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"trs",
+				"trs	transition"
+			],
+			[
+				"bn",
+				"bd:n	border:none"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"a",
+				"transparent"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tsh",
+				"tsh	text-shadow: ${1:hoff} ${2:voff} ${3:blur} ${4:#000};"
+			],
+			[
+				"lstn",
+				"list:n	list-style-type:none"
+			],
+			[
+				"border-sp",
+				"border-collapse"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"di",
+				"d-i	display: inline;"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"bg",
+				"bgo	background-origin"
+			],
+			[
+				"bac",
+				"background-attachment"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"posa",
+				"pos-a	position: absolute;"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8507,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/common.js",
+			"settings":
+			{
+				"buffer_size": 2245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/main.sass",
+			"settings":
+			{
+				"buffer_size": 7343,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 14682,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/media.css",
+			"settings":
+			{
+				"buffer_size": 2034,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: rem",
+		"selected_items":
+		[
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"install emmet",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/D/dima/project/brus/libs/bootstrap/css/bootstrap.css",
+		"/D/dima/project/brus/libs/bootstrap/css/bootstrap-theme.css",
+		"/D/dima/project/brus/css/main.css",
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/CSScomb/README.md",
+		"/D/dima/project/brus/css/sass/main.sass",
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/dima/project/brus/css/image.css",
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/dima/project/brus/.gitignore",
+		"/D/dima/project/brus/config.rb",
+		"/D/dima/project/brus/css/sass/fonts.css",
+		"/D/dima/project/brus/data/#2. Адаптивная HTML верстка на примере образовательного Landing Page/waypoints/waypoints.min.js",
+		"/D/dima/project/brus/css/fonts.css",
+		"/D/dima/project/brus/data/#2. Адаптивная HTML верстка на примере образовательного Landing Page/_clean_sass/css/media.css",
+		"/D/dima/project/brus/data/#2. Адаптивная HTML верстка на примере образовательного Landing Page/_clean_sass/css/fonts.css",
+		"/D/dima/работа/site_1/css/media.css",
+		"/D/dima/работа/site_1/libs/tepm/vtip.js",
+		"/D/dima/работа/site_1/js/toggle.js",
+		"/D/dima/работа/site_1/js/my_common.js",
+		"/D/dima/работа/site_1/js/common.js",
+		"/D/dima/работа/site_1/css/icons.css",
+		"/D/dima/работа/site_1/index.html",
+		"/C/compass/myproject/sass/style.sass",
+		"/C/compass/myproject/stylesheets/style.css",
+		"/C/compass/myproject/style.sass",
+		"/C/compass/myproject/stylesheets/print.css",
+		"/C/compass/myproject/stylesheets/ie.css",
+		"/C/compass/myproject/stylesheets/screen.css",
+		"/D/dima/работа/site_1/css/main.css",
+		"/D/dima/работа/site_1/ak/index.html",
+		"/D/dima/работа/site_1/jquery.easyexpand/js/jquery-easyexpand.js",
+		"/D/dima/работа/site_1/ak/jquery-latest.js",
+		"/D/dima/Landing page/-first/index.html",
+		"/D/dima/Landing page/-first/js/common.js",
+		"/D/dima/template/fixed menu+/css/main.css",
+		"/D/dima/template/fixed menu+/js/common.js",
+		"/D/dima/template/fixed menu on bottom/css/main.css",
+		"/D/dima/работа/site_1/libs/bootstrap/bootstrap-grid-3.3.1.min.css",
+		"/D/dima/template/fixed menu on bottom/index.html",
+		"/D/dima/template/own carousel/js/common.js",
+		"/D/dima/template/own carousel/index_own.html",
+		"/D/dima/Landing page/-first/css/main.css",
+		"/D/dima/работа/site_1/css/fonts.css",
+		"/D/dima/работа/site_1/fonts/Linearicons-Free/Linearicons-Free.css",
+		"/D/dima/Landing page/template_bootstrap/index.html",
+		"/D/dima/Landing page/template_bootstrap/js/my_common.js",
+		"/D/dima/template/major js/index.html",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/index2.html",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/css/demo.css",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/css/component.css",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/js/modernizr.custom.js",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/js/mlpushmenu.js",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/js/classie.js",
+		"/D/dima/template/Multilevelmenu/MultiLevelPushMenu/css/icons.css",
+		"/D/dima/Landing page/template_bootstrap/css/icons.css",
+		"/D/dima/Landing page/template_bootstrap/css/fonts.css",
+		"/D/dima/template/Multilevelmenu/Linearicons-Free-v1.0.0/Web Font/demo-files/demo.css",
+		"/D/dima/template/Multilevelmenu/Linearicons-Free-v1.0.0/Web Font/style.css",
+		"/D/dima/template/Multilevelmenu/Linearicons-Free-v1.0.0/Web Font/demo.html",
+		"/D/dima/Landing page/template_bootstrap/css/LineariconsFree.css",
+		"/D/dima/template/Multilevelmenu/Linearicons-Free-v1.0.0/Web Font/Linearicons-Free.css",
+		"/D/dima/Landing page/template_bootstrap/libs/YoutubeDelayed/YoutubeDelayed.min.js",
+		"/D/dima/template/navigation2/liLanding/callback.html",
+		"/D/dima/template/navigation2/liLanding/js/jquery.liLanding.js",
+		"/D/dima/template/navigation2/liLanding/css/liLanding.css",
+		"/D/dima/template/navigation2/liLanding/css/demo.css",
+		"/D/dima/template/navigation2/liLanding/css/style.css",
+		"/D/dima/template/fixed menu/css/main.css",
+		"/D/dima/template/fixed menu/index.html",
+		"/C/Users/Олюшка/AppData/Local/Temp/_tc/index.html",
+		"/D/dima/template/fixed menu/js/common.js",
+		"/D/dima/template/Countdown timer2/css/main.css",
+		"/C/Users/Олюшка/AppData/Local/Temp/_tc/css/normalize.css",
+		"/C/Users/Олюшка/AppData/Local/Temp/_tc/css/style.css",
+		"/D/dima/Landing page/#1/template_bootstrap/css/main.css",
+		"/D/dima/Landing page/#1/template_bootstrap/js/my_common.js",
+		"/D/dima/Landing page/#1/template_bootstrap/js/common.js",
+		"/D/dima/Landing page/#1/template_bootstrap/index.html",
+		"/D/dima/Landing page/second/js/common.js",
+		"/D/dima/Landing page/#1/template_bootstrap/_.htaccess",
+		"/D/dima/template/One screan/index.html",
+		"/D/dima/template/One screan/main.css",
+		"/D/dima/template/One screan/purejs-onepage-scroll-master/demo/purejs_onepage_scroll_demo.html",
+		"/D/dima/template/One screan/onepagescroll.min.js",
+		"/D/dima/template/One screan/common.js",
+		"/D/dima/template/major js/js/common.js",
+		"/D/dima/template/own carousel/css/main.css",
+		"/D/dima/template/navigation2/css/liLanding.css",
+		"/D/dima/template/navigation2/js/jquery.liLanding.js",
+		"/D/dima/template/navigation/liLanding/anhor_menu.html",
+		"/D/dima/template/navigation2/index_nav2.html",
+		"/D/dima/template/navigation2/css/myfile.css",
+		"/D/dima/template/navigation/css/main.css",
+		"/D/dima/template/navigation/js/common.js",
+		"/D/dima/template/navigation2/css/demo.css",
+		"/D/dima/template/navigation2/css/style.css",
+		"/D/dima/template/navigation2/liLanding/anhor_menu.html",
+		"/C/Users/Олюшка/AppData/Local/Temp/_tc/liLanding/anhor_menu.html",
+		"/D/dima/template/navigation/AnchorScroller.js",
+		"/C/Users/Олюшка/AppData/Roaming/Sublime Text 3/Packages/User/Comment.sublime-snippet",
+		"/D/dima/template/navigation/css/liLanding.css",
+		"/D/dima/template/navigation/js/jquery.liLanding.js",
+		"/D/dima/template/navigation/index_nav.html",
+		"/D/dima/товар/выбор товара.xlsx",
+		"/D/dima/template/Countdown timer/index.html",
+		"/D/dima/Landing page/first/css/media.css",
+		"/D/dima/Landing page/first/css/fonts.css",
+		"/D/dima/Landing page/first/css/main.css",
+		"/D/dima/Landing page/first/mail.php",
+		"/D/dima/Landing page/first/js/common.js",
+		"/D/dima/template/Countdown timer/js/common.js",
+		"/D/dima/template/Countdown timer/libs/countdownanalog/jquery.counter.js",
+		"/D/dima/Landing page/first/index.html",
+		"/D/dima/template/Youtube preloder/index.html",
+		"/D/dima/template/Youtube preloder/YoutubeDelayed.js-master/README.md",
+		"/D/dima/template/Countdown timer4/lwtCountdown-html/index.html",
+		"/D/dima/template/Youtube preloder/YoutubeDelayed.js-master/YoutubeDelayed.css",
+		"/D/dima/template/Youtube preloder/YoutubeDelayed.js-master/YoutubeDelayed.js",
+		"/D/dima/template/Countdown timer/css/main.css",
+		"/D/dima/template/Countdown timer2/index_timer.html",
+		"/D/dima/template/Countdown timer2/js/prefixfree.min.js",
+		"/D/dima/template/Countdown timer2/index.html",
+		"/D/dima/template/Countdown timer2/config.rb",
+		"/D/dima/template/Countdown timer2/js/index.js",
+		"/D/dima/template/Countdown timer/sophilabs-jquery-counter-4ee108b/package.json",
+		"/D/dima/template/Countdown timer/sophilabs-jquery-counter-4ee108b/bower.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"wr",
+			"letter",
+			"description",
+			"font-size",
+			"1200px",
+			"max-width",
+			"size",
+			"css",
+			"media",
+			"	<",
+			"@media (min-width: 1200px)",
+			"		<div class=\"slide_item\"><img src=\"img/item_4\" alt></div>\n								<div class=\"slide_item\"><img src=\"img/item_5\" alt></div>",
+			";\n",
+			"e88d",
+			"screenDecor",
+			"video",
+			"nav",
+			"class",
+			"div",
+			"lin",
+			"linc",
+			"link",
+			"4",
+			"sell_right",
+			"js",
+			"ctrl+s ",
+			"expand_abbreviatio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"script",
+			"!",
+			"class",
+			"}",
+			"sell_right",
+			"slder_container",
+			"c",
+			"ta",
+			":;",
+			";\n",
+			"center",
+			";\n",
+			"fff",
+			"}\n",
+			")\n",
+			":;",
+			"a",
+			"ib",
+			";\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1095,
+								1095
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/sass/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6131,
+								6131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3574.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								552,
+								552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 938.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/media.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.686857024917,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "brus_ST3.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 360.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

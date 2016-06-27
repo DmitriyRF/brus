@@ -22,12 +22,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.72727em;
+    font-size: 1.9em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.72727em;
+    font-size: 1.9em;
   }
 
   /* line 36, sass/main.sass */
@@ -37,7 +37,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.72727em;
+    font-size: 1.9em;
   }
 
   /* line 40, sass/main.sass */
@@ -63,12 +63,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.57025em;
+    font-size: 1.72727em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.57025em;
+    font-size: 1.72727em;
   }
 
   /* line 36, sass/main.sass */
@@ -78,7 +78,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.57025em;
+    font-size: 1.72727em;
   }
 
   /* line 40, sass/main.sass */
@@ -104,12 +104,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.4275em;
+    font-size: 1.57025em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.4275em;
+    font-size: 1.57025em;
   }
 
   /* line 36, sass/main.sass */
@@ -119,7 +119,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.4275em;
+    font-size: 1.57025em;
   }
 
   /* line 40, sass/main.sass */
@@ -145,12 +145,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.29773em;
+    font-size: 1.4275em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.29773em;
+    font-size: 1.4275em;
   }
 
   /* line 36, sass/main.sass */
@@ -160,7 +160,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.29773em;
+    font-size: 1.4275em;
   }
 
   /* line 40, sass/main.sass */
@@ -186,12 +186,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.17975em;
+    font-size: 1.29773em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.17975em;
+    font-size: 1.29773em;
   }
 
   /* line 36, sass/main.sass */
@@ -201,7 +201,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.17975em;
+    font-size: 1.29773em;
   }
 
   /* line 40, sass/main.sass */
@@ -227,12 +227,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 1.0725em;
+    font-size: 1.17975em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 1.0725em;
+    font-size: 1.17975em;
   }
 
   /* line 36, sass/main.sass */
@@ -242,7 +242,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 1.0725em;
+    font-size: 1.17975em;
   }
 
   /* line 40, sass/main.sass */
@@ -268,12 +268,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 0.975em;
+    font-size: 1.0725em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 0.975em;
+    font-size: 1.0725em;
   }
 
   /* line 36, sass/main.sass */
@@ -283,7 +283,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 0.975em;
+    font-size: 1.0725em;
   }
 
   /* line 40, sass/main.sass */
@@ -309,12 +309,12 @@ html {
 
   /* line 32, sass/main.sass */
   h4 {
-    font-size: 0.88636em;
+    font-size: 0.975em;
   }
 
   /* line 34, sass/main.sass */
   p {
-    font-size: 0.88636em;
+    font-size: 0.975em;
   }
 
   /* line 36, sass/main.sass */
@@ -324,7 +324,7 @@ html {
 
   /* line 38, sass/main.sass */
   .tel .tabs {
-    font-size: 0.88636em;
+    font-size: 0.975em;
   }
 
   /* line 40, sass/main.sass */
@@ -361,65 +361,106 @@ body textarea:required:valid {
   display: none;
 }
 
-/* line 66, sass/main.sass */
-button,
-button:active,
-button:focus,
-input {
-  outline: none;
+/* line 67, sass/main.sass */
+.fade {
+  font-family: "RobotoRegular";
+}
+/* line 68, sass/main.sass */
+.fade button {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+/* line 73, sass/main.sass */
+.fade .modal-header {
+  background-color: #FF7100;
+}
+/* line 75, sass/main.sass */
+.fade .modal-title {
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 80, sass/main.sass */
+.fade .modal-body .number {
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+/* line 84, sass/main.sass */
+.fade .modal-body .name {
+  vertical-align: middle;
+}
+/* line 87, sass/main.sass */
+.fade .modal-footer button {
+  padding: 7px 32px;
+  cursor: pointer;
+  display: inline-block;
+  height: 45px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+@media only screen and (max-width: 480px) {
+  /* line 86, sass/main.sass */
+  .fade .modal-footer {
+    text-align: center;
+  }
 }
 
-/* line 72, sass/main.sass */
+/* line 101, sass/main.sass */
 h1 {
-  color: #FFAB00;
   font-weight: bold;
   font-family: CleanvertisingLight, sans-serif;
   margin: 0;
 }
 
-/* line 78, sass/main.sass */
+/* line 106, sass/main.sass */
 header {
   min-height: 600px;
   background-image: url(../img/mainBG.jpeg);
   background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
   color: #FFAB00;
 }
-/* line 85, sass/main.sass */
+/* line 114, sass/main.sass */
 header .heder-logo-tel {
   margin-top: 30px;
 }
-/* line 87, sass/main.sass */
+/* line 116, sass/main.sass */
 header .logo {
   vertical-align: middle;
   font-family: "RobotoRegular", sans-serif;
   font-weight: bold;
 }
 @media only screen and (max-width: 992px) {
-  /* line 87, sass/main.sass */
+  /* line 116, sass/main.sass */
   header .logo {
     text-align: center;
     margin-bottom: 15px;
   }
 }
-/* line 95, sass/main.sass */
+/* line 124, sass/main.sass */
 header .fon-white {
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
 }
 
-/* line 112, sass/main.sass */
+/* line 141, sass/main.sass */
 .tel {
   text-align: right;
 }
-/* line 101, sass/main.sass */
+/* line 130, sass/main.sass */
 .tel .js-wrapper .active {
   color: #FF7100;
   text-decoration: underline;
 }
-/* line 104, sass/main.sass */
+/* line 133, sass/main.sass */
 .tel .js-wrapper .tab {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -427,31 +468,31 @@ header .fon-white {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 108, sass/main.sass */
+/* line 137, sass/main.sass */
 .tel .js-wrapper .tab_item {
   color: #FF7100;
   text-transform: uppercase;
   font-family: "RobotoBold";
 }
 @media only screen and (max-width: 992px) {
-  /* line 112, sass/main.sass */
+  /* line 141, sass/main.sass */
   .tel {
     text-align: center;
   }
 }
 
-/* line 119, sass/main.sass */
+/* line 148, sass/main.sass */
 .tabs-heder {
   margin: 50px 0 20px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 119, sass/main.sass */
+  /* line 148, sass/main.sass */
   .tabs-heder {
     margin-top: 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 125, sass/main.sass */
+  /* line 154, sass/main.sass */
   .tabs-heder .tabs:after {
     content: "";
     display: block;
@@ -460,7 +501,7 @@ header .fon-white {
     background-color: #FF7100;
   }
 }
-/* line 131, sass/main.sass */
+/* line 160, sass/main.sass */
 .tabs-heder .tabs .tab {
   display: inline-block;
   padding: 10px 25px;
@@ -473,33 +514,33 @@ header .fon-white {
   /*+transition(all .2s ease) */
 }
 @media only screen and (max-width: 480px) {
-  /* line 131, sass/main.sass */
+  /* line 160, sass/main.sass */
   .tabs-heder .tabs .tab {
     display: block;
     width: 100%;
   }
-  /* line 136, sass/main.sass */
+  /* line 165, sass/main.sass */
   .tabs-heder .tabs .tab.active {
     font-weight: bold;
   }
 }
-/* line 146, sass/main.sass */
+/* line 175, sass/main.sass */
 .tabs-heder .tabs .tab.active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #FF7100;
 }
-/* line 149, sass/main.sass */
+/* line 178, sass/main.sass */
 .tabs-heder .tab_content {
   display: block;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 10px 25px 20px;
 }
-/* line 150, sass/main.sass */
+/* line 179, sass/main.sass */
 .tabs-heder .tab_content ul, .tabs-heder .tab_content li {
   margin: 0;
   padding: 0;
 }
-/* line 153, sass/main.sass */
+/* line 182, sass/main.sass */
 .tabs-heder .tab_content li {
   list-style-type: none;
   min-height: 45px;
@@ -508,25 +549,25 @@ header .fon-white {
   top: 0;
   z-index: 1;
 }
-/* line 160, sass/main.sass */
+/* line 189, sass/main.sass */
 .tabs-heder .tab_content li:hover {
   top: -3px;
   z-index: 2;
 }
-/* line 163, sass/main.sass */
+/* line 192, sass/main.sass */
 .tabs-heder .tab_content h4 {
   padding: 14px 0 14px 65px;
   margin: 0;
   vertical-align: middle;
 }
 @media only screen and (max-width: 480px) {
-  /* line 149, sass/main.sass */
+  /* line 178, sass/main.sass */
   .tabs-heder .tab_content {
     padding: 10px;
   }
 }
 
-/* line 176, sass/main.sass */
+/* line 205, sass/main.sass */
 .bg-image {
   height: 45px;
   width: 45px;
@@ -535,49 +576,49 @@ header .fon-white {
   background-size: cover;
 }
 
-/* line 183, sass/main.sass */
+/* line 212, sass/main.sass */
 .caption {
   margin-top: 80px;
   color: #FFAB00;
 }
-/* line 186, sass/main.sass */
+/* line 215, sass/main.sass */
 .caption h2 {
   font-weight: bold;
   margin: 0;
   font-family: "CleanvertisingLight";
 }
 @media only screen and (max-width: 992px) {
-  /* line 183, sass/main.sass */
+  /* line 212, sass/main.sass */
   .caption {
     margin-top: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 183, sass/main.sass */
+  /* line 212, sass/main.sass */
   .caption {
     margin-top: 20px;
     text-align: center;
   }
 }
 
-/* line 196, sass/main.sass */
+/* line 225, sass/main.sass */
 .button--wrappe {
   text-align: right;
   margin-top: 15px;
 }
 @media only screen and (max-width: 480px) {
-  /* line 196, sass/main.sass */
+  /* line 225, sass/main.sass */
   .button--wrappe {
     text-align: center;
   }
 }
-/* line 202, sass/main.sass */
+/* line 231, sass/main.sass */
 .button--wrappe a:hover, .button--wrappe a:focus, .button--wrappe a:active {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 221, sass/main.sass */
+/* line 250, sass/main.sass */
 .button {
   border: none;
   cursor: pointer;
@@ -594,43 +635,124 @@ header .fon-white {
   font-family: "RobotoRegular";
 }
 @media only screen and (max-width: 480px) {
-  /* line 221, sass/main.sass */
+  /* line 250, sass/main.sass */
   .button {
     padding: 0 16px;
   }
 }
-/* line 225, sass/main.sass */
+/* line 254, sass/main.sass */
 .button.btn_red {
   background-color: #FF7100;
 }
 
-/* line 228, sass/main.sass */
+/* line 257, sass/main.sass */
 a .button {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 232, sass/main.sass */
+/* line 263, sass/main.sass */
+.picture-letter-a {
+  background-image: url("../img/a.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 263, sass/main.sass */
+.picture-letter-b {
+  background-image: url("../img/b.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 263, sass/main.sass */
+.picture-letter-c {
+  background-image: url("../img/c.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 263, sass/main.sass */
+.picture-letter-d {
+  background-image: url("../img/d.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 270, sass/main.sass */
 .tizer {
   padding: 30px 0;
   text-align: center;
   background-color: #FF7100;
 }
-/* line 236, sass/main.sass */
-.tizer h3 {
+/* line 274, sass/main.sass */
+.tizer h2 {
   margin: 0 0 35px;
 }
-/* line 238, sass/main.sass */
-.tizer img {
-  margin: 5vmin;
-  width: 25vmin;
-  height: 25vmin;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.8);
+/* line 276, sass/main.sass */
+.tizer .button--project {
+  margin: 25px 15px;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  /* line 276, sass/main.sass */
+  .tizer .button--project {
+    margin: 7px;
+    font-size: 14px;
+  }
 }
 
-/* line 249, sass/main.sass */
+/* line 288, sass/main.sass */
+.js-project .tabs .tab {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 291, sass/main.sass */
+.js-project .tabs > .active .project-img {
+  box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+/* line 294, sass/main.sass */
+.js-project .tab_content .tab_item {
+  display: block;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  padding: 5px;
+}
+/* line 300, sass/main.sass */
+.js-project .tab_content .tab_item p {
+  vertical-align: middle;
+}
+/* line 302, sass/main.sass */
+.js-project .project-img {
+  margin: 4vmin;
+  width: 24vmin;
+  height: 24vmin;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateZ(0);
+  box-shadow: inset 0 0 0 8px rgba(255, 113, 0, 0.6);
+}
+/* line 310, sass/main.sass */
+.js-project .content-img {
+  border-radius: 15px 0 0 15px;
+  display: block;
+  max-width: 100%;
+  height: 300px;
+}
+@media only screen and (max-width: 992px) {
+  /* line 310, sass/main.sass */
+  .js-project .content-img {
+    border-radius: 15px;
+  }
+}
+
+/* line 319, sass/main.sass */
 .back_call {
   padding: 80px 0;
   text-align: center;
@@ -639,73 +761,84 @@ a .button {
   border-bottom-left-radius: 70% 15%;
   background-color: #FFD700;
 }
-/* line 256, sass/main.sass */
+/* line 326, sass/main.sass */
 .back_call h3 {
   text-transform: uppercase;
 }
-/* line 258, sass/main.sass */
+/* line 328, sass/main.sass */
 .back_call input {
   margin: 20px 20px 0;
   display: inline-block;
   padding: 7px 7px 7px 20px;
 }
-/* line 262, sass/main.sass */
+/* line 332, sass/main.sass */
 .back_call input[type="submit"] {
   padding: 7px 70px;
   text-transform: uppercase;
   border-radius: 5px;
 }
 
+/* line 344, sass/main.sass */
+button,
+button:active,
+button:focus,
+button:hover,
+button:checked,
+button:default,
+input {
+  outline: none;
+}
+
 @media only screen and (min-width: 1400px) and (min-height: 850px) {
-  /* line 277, sass/main.sass */
+  /* line 354, sass/main.sass */
   .caption {
     margin-top: 100px;
   }
 
-  /* line 279, sass/main.sass */
+  /* line 356, sass/main.sass */
   .tabs-heder {
     margin-top: 100px;
   }
 
-  /* line 281, sass/main.sass */
+  /* line 358, sass/main.sass */
   .heder-logo-tel {
     margin-top: 50px;
   }
 }
 @media only screen and (min-width: 2000px) and (min-height: 1100px) {
-  /* line 284, sass/main.sass */
+  /* line 361, sass/main.sass */
   .caption {
     margin-top: 200px;
   }
 
-  /* line 286, sass/main.sass */
+  /* line 363, sass/main.sass */
   .tabs-heder {
     margin-top: 200px;
   }
 
-  /* line 288, sass/main.sass */
+  /* line 365, sass/main.sass */
   .heder-logo-tel {
     margin-top: 100px;
   }
 
-  /* line 290, sass/main.sass */
+  /* line 367, sass/main.sass */
   .tizer img {
     max-width: 230px;
     max-height: 230px;
   }
 }
 @media only screen and (min-width: 2500px) and (min-height: 1400px) {
-  /* line 294, sass/main.sass */
+  /* line 371, sass/main.sass */
   .caption {
     margin-top: 250px;
   }
 
-  /* line 296, sass/main.sass */
+  /* line 373, sass/main.sass */
   .tabs-heder {
     margin-top: 250px;
   }
 
-  /* line 298, sass/main.sass */
+  /* line 375, sass/main.sass */
   .heder-logo-tel {
     margin-top: 150px;
   }
