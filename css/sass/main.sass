@@ -33,6 +33,8 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 				font-size: modular-scale(0 - $i) //bourbon function
 			p 
 				font-size: modular-scale(0 - $i) //bourbon function	
+			td,th 
+				font-size: modular-scale(0 - $i) //bourbon function	
 			.tel .tab_content //h2
 				font-size: modular-scale(4 - $i) //bourbon function
 			.tel .tabs //h3-h4
@@ -63,8 +65,9 @@ body textarea:required:valid
 
 .hidden
 	display: none
-	
-.fade		
+
+.fade
+	overflow: scroll		
 	button
 		cursor: pointer
 		text-transform: uppercase
@@ -84,6 +87,8 @@ body textarea:required:valid
 		.name
 			vertical-align: middle
 	.modal-footer
+		@media only screen and (max-width : 480px)
+			text-align: center
 		button
 			padding: 7px 32px
 			cursor: pointer
@@ -91,11 +96,9 @@ body textarea:required:valid
 			height: 45px
 			text-transform: uppercase
 			border-radius: 5px
-			text-align: center
 			text-decoration: none
 			font-size: 16px
-		@media only screen and (max-width : 480px)
-			text-align: center
+			
 
 
 h1
@@ -301,15 +304,19 @@ a .button
 			vertical-align: middle
 	.project-img
 		margin: 4vmin
-		width: 24vmin
-		height: 24vmin
+		width: 20vmin
+		height: 20vmin
+		@media only screen and (min-width : 1500px)	
+			width: 200px
+			height: 200px
+			margin: 36px	
 		border-radius: 50%
 		overflow: hidden
 		transform: translateZ(0)
 		box-shadow: inset 0 0 0 8px rgba(255,113,0,0.6)
 	.content-img
 		border-radius: 15px 0 0 15px
-		@media only screen and (max-width : 992px)
+		
 			border-radius: 15px
 		display: block
 		max-width: 100%

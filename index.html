@@ -26,139 +26,141 @@
 <body>
 	<div class="hidden"></div>
 	<!-- -+-+-+-+-+-+-+-+-+-+-+-+-+-  START  MODAL WINDOW  -+-+-+-+-+-+-+-+-+-+-+-+-+- -->
-<!-- <div class="modal fade" id="description-complect" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg"> 
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title">ОПИСАНИЕ БАЗОВОЙ КОМПЛЕКТАЦИИ</h2>
-      </div>
-      <div class="modal-body">
-		<div class="table">
-			<table class="table table-hover table-bordered table-striped">
-				<thead>
-					<tr>
-						<th width=10% class=number>#</th>
-						<th width=30% class=name>Название</th>
-						<th width=60% class=description>Описание</th>
-					</tr>
-				</thead>
-				<tbody>
+<div class="modal fade" id="description-complect" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg"> 
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h2 class="modal-title">ОПИСАНИЕ БАЗОВОЙ КОМПЛЕКТАЦИИ</h2>
+			</div>
+			<div class="modal-body">
+				<div class="table">
+					<table class="table table-hover table-bordered table-striped">
+						<thead>
+							<tr>
+								<th class=number>#</th>
+								<th class=name>Название</th>
+								<th class=description>Описание</th>
+							</tr>
+						</thead>
+						<tbody>
 
-			        <tr>
-			            <td width=10% class=number>1.</td>
-			            <td width=30% class=name>Высота потолка</td>
-			            <td width=60% class=description>2,02 м</td>
-			        </tr>
-			        <tr>
-			            <td class=number>2.</td>
-			            <td class=name>Внешние стены бани</td>
-			            <td class=description><strong>Профилированный брус 100 х 150 (90 х 140)</strong>, утеплитель&nbsp;&#151; джут, соединение углов&nbsp;&#151; в&nbsp;стык. Брусовые стены в&nbsp;раздевалке и&nbsp;мойке вагонкой дополнительно не&nbsp;обшиваются. Профиль бруса&nbsp;&#151; блок-хаус. Сборка сруба на&nbsp;металлические гвозди 200&nbsp;мм, с&nbsp;утапливанием.</td>
-			        </tr>
-			        <tr>
-			            <td class=number>3.</td>
-			            <td class=name>Перегородки</td>
-			            <td class=description><strong>Каркасные, обшиты вагонкой, не утепляются</strong></td>
-			        </tr>
-			        <tr>
-			            <td class=number>4.</td>
-			            <td class=name>Фундамент</td>
-			            <td class=description>Фундаментные блоки (6 или 8 шт.)</td>
-			        </tr>
-			        <tr>
-			            <td class=number>5.</td>
-			            <td class=name>Обвязка</td>
-			            <td class=description>Брус 100 х 150, <strong>обработан антисептиком с 4-х сторон; цвет черный</strong></td>
-			        </tr>
-			        <tr>
-			            <td class=number>6.</td>
-			            <td class=name>Балки пола</td>
-			            <td class=description>Доска 40 х 100, шаг 0,7 м</td>
-			        </tr>
-			        <tr>
-			            <td class=number>7.</td>
-			            <td class=name>Стропила и балки потолка</td>
-			            <td class=description>Доска 40 х 150, шаг 0,7 м</td>
-			        </tr>
-			        <tr>
-			            <td class=number>8.</td>
-			            <td class=name>Окна</td>
-			            <td class=description>Деревянные, двойное остекление: <nobr>0,6 х 0,6 &#151;</nobr> 1&nbsp;шт.; <nobr>0,8 х 0,8 &#151;</nobr> 1&nbsp;шт.</td>
-			        </tr>
-			        <tr>
-			            <td class=number>9.</td>
-			            <td class=name>Двери</td>
-			            <td class=description>В парилку &#151; клиновая; входная и внутренняя&nbsp;&#151; каркасные</td>
-			        </tr>
-			        <tr>
-			            <td class=number>10.</td>
-			            <td class=name>Тип кровли</td>
-			            <td class=description>Двухскатная, конек 15 см</td>
-			        </tr>
-			        <tr>
-			            <td class=number>11.</td>
-			            <td class=name>Материал кровли</td>
-			            <td class=description>Гладкое оцинкованное железо</td>
-			        </tr>
-			        <tr>
-			            <td class=number>12.</td>
-			            <td class=name>Полы</td>
-			            <td class=description>Черновой пол: обрезная доска толщиной 20&nbsp;мм; чистовой пол: строганная шпунтованная доска толщиной 27&nbsp;мм</td>
-			        </tr>
-			        <tr>
-			            <td class=number>13.</td>
-			            <td class=name>Слив воды в мойке</td>
-			            <td class=description>Слив в полу&nbsp;&#151; пол под уклоном в центр, с&nbsp;двух сторон, <strong>или душевой поддон</strong></td>
-			        </tr>
-			        <tr>
-			            <td class=number>14.</td>
-			            <td class=name>Утепление бани</td>
-			            <td class=description>Минеральная вата&nbsp;&#151; 50&nbsp;мм; пароизоляция с&nbsp;одной стороны</td>
-			        </tr>
-			        <tr>
-			            <td class=number>15.</td>
-			            <td class=name>Окраска бани</td>
-			            <td class=description><strong>Баня окрашивается эмалью &laquo;ПФ-115&raquo;, наличники в&nbsp;темный цвет</strong></td>
-			        </tr>
-			        <tr>
-			            <td class=number>16.</td>
-			            <td class=name>>Отделка парного отделения</td>
-			            <td class=description>Стены и потолок обшиваются осиновой вагонкой, сорт &laquo;В&raquo;. Вагонка стыкуется из&nbsp;двух частей, как на&nbsp;стенах, так&nbsp;и на&nbsp;потолке. Устанавливаются двухуровневые пологи из&nbsp;осиновой доски, сорт &laquo;В&raquo;, толщина 25&nbsp;мм. Пароизоляция&nbsp;&#151; фольга.</td>
-			        </tr>
-			        <tr>
-			            <td class=number>17.</td>
-			            <td class=name>Отделка мойки и раздевалки</td>
-			            <td class=description>Потолки подшиваются хвойной евровагонкой</td>
-			        </tr>
-			        <tr>
-			            <td class=number>18.</td>
-			            <td class=name>Мебель в раздевалке</td>
-			            <td class=description>Стол и&nbsp;две лавки. Прикручиваются к&nbsp;стене. Мебель устанавливается только в&nbsp;6 и&nbsp;7 метровые бани.</td>
-			        </tr>
-			        <tr>
-			            <td class=number>19.</td>
-			            <td class=name>Электрика</td>
-			            <td class=description>Во&nbsp;всех помещениях установлены светильники. В&nbsp;раздевалке установлены двойная розетка, двойной выключатель и&nbsp;автомат на&nbsp;16&nbsp;А. Провода проложены в&nbsp;кабель-каналах.</td>
+					        <tr>
+					            <td class=number>1.</td>
+					            <td class=name>Высота потолка</td>
+					            <td class=description>2,02 м</td>
+					        </tr>
+					        <tr>
+					            <td class=number>2.</td>
+					            <td class=name>Внешние стены бани</td>
+					            <td class=description><strong>Профилированный брус 100 х 150 (90 х 140)</strong>, утеплитель&nbsp;&#151; джут, соединение углов&nbsp;&#151; в&nbsp;стык. Брусовые стены в&nbsp;раздевалке и&nbsp;мойке вагонкой дополнительно не&nbsp;обшиваются. Профиль бруса&nbsp;&#151; блок-хаус. Сборка сруба на&nbsp;металлические гвозди 200&nbsp;мм, с&nbsp;утапливанием.</td>
+					        </tr>
+					        <tr>
+					            <td class=number>3.</td>
+					            <td class=name>Перегородки</td>
+					            <td class=description><strong>Каркасные, обшиты вагонкой, не утепляются</strong></td>
+					        </tr>
+					        <tr>
+					            <td class=number>4.</td>
+					            <td class=name>Фундамент</td>
+					            <td class=description>Фундаментные блоки (6 или 8 шт.)</td>
+					        </tr>
+					        <tr>
+					            <td class=number>5.</td>
+					            <td class=name>Обвязка</td>
+					            <td class=description>Брус 100 х 150, <strong>обработан антисептиком с 4-х сторон; цвет черный</strong></td>
+					        </tr>
+					        <tr>
+					            <td class=number>6.</td>
+					            <td class=name>Балки пола</td>
+					            <td class=description>Доска 40 х 100, шаг 0,7 м</td>
+					        </tr>
+					        <tr>
+					            <td class=number>7.</td>
+					            <td class=name>Стропила и балки потолка</td>
+					            <td class=description>Доска 40 х 150, шаг 0,7 м</td>
+					        </tr>
+					        <tr>
+					            <td class=number>8.</td>
+					            <td class=name>Окна</td>
+					            <td class=description>Деревянные, двойное остекление: <nobr>0,6 х 0,6 &#151;</nobr> 1&nbsp;шт.; <nobr>0,8 х 0,8 &#151;</nobr> 1&nbsp;шт.</td>
+					        </tr>
+					        <tr>
+					            <td class=number>9.</td>
+					            <td class=name>Двери</td>
+					            <td class=description>В парилку &#151; клиновая; входная и внутренняя&nbsp;&#151; каркасные</td>
+					        </tr>
+					        <tr>
+					            <td class=number>10.</td>
+					            <td class=name>Тип кровли</td>
+					            <td class=description>Двухскатная, конек 15 см</td>
+					        </tr>
+					        <tr>
+					            <td class=number>11.</td>
+					            <td class=name>Материал кровли</td>
+					            <td class=description>Гладкое оцинкованное железо</td>
+					        </tr>
+					        <tr>
+					            <td class=number>12.</td>
+					            <td class=name>Полы</td>
+					            <td class=description>Черновой пол: обрезная доска толщиной 20&nbsp;мм; чистовой пол: строганная шпунтованная доска толщиной 27&nbsp;мм</td>
+					        </tr>
+					        <tr>
+					            <td class=number>13.</td>
+					            <td class=name>Слив воды в мойке</td>
+					            <td class=description>Слив в полу&nbsp;&#151; пол под уклоном в центр, с&nbsp;двух сторон, <strong>или душевой поддон</strong></td>
+					        </tr>
+					        <tr>
+					            <td class=number>14.</td>
+					            <td class=name>Утепление бани</td>
+					            <td class=description>Минеральная вата&nbsp;&#151; 50&nbsp;мм; пароизоляция с&nbsp;одной стороны</td>
+					        </tr>
+					        <tr>
+					            <td class=number>15.</td>
+					            <td class=name>Окраска бани</td>
+					            <td class=description><strong>Баня окрашивается эмалью &laquo;ПФ-115&raquo;, наличники в&nbsp;темный цвет</strong></td>
+					        </tr>
+					        <tr>
+					            <td class=number>16.</td>
+					            <td class=name>>Отделка парного отделения</td>
+					            <td class=description>Стены и потолок обшиваются осиновой вагонкой, сорт &laquo;В&raquo;. Вагонка стыкуется из&nbsp;двух частей, как на&nbsp;стенах, так&nbsp;и на&nbsp;потолке. Устанавливаются двухуровневые пологи из&nbsp;осиновой доски, сорт &laquo;В&raquo;, толщина 25&nbsp;мм. Пароизоляция&nbsp;&#151; фольга.</td>
+					        </tr>
+					        <tr>
+					            <td class=number>17.</td>
+					            <td class=name>Отделка мойки и раздевалки</td>
+					            <td class=description>Потолки подшиваются хвойной евровагонкой</td>
+					        </tr>
+					        <tr>
+					            <td class=number>18.</td>
+					            <td class=name>Мебель в раздевалке</td>
+					            <td class=description>Стол и&nbsp;две лавки. Прикручиваются к&nbsp;стене. Мебель устанавливается только в&nbsp;6 и&nbsp;7 метровые бани.</td>
+					        </tr>
+					        <tr>
+					            <td class=number>19.</td>
+					            <td class=name>Электрика</td>
+					            <td class=description>Во&nbsp;всех помещениях установлены светильники. В&nbsp;раздевалке установлены двойная розетка, двойной выключатель и&nbsp;автомат на&nbsp;16&nbsp;А. Провода проложены в&nbsp;кабель-каналах.</td>
 
-			        </tr>
-			        <tr>
-			            <td class=number>20.</td>
-			            <td class=name>Печь</td>
-			            <td class=description>Сварная банная металлическая печь &laquo;Каменка-2&raquo; со&nbsp;встроенным баком для воды. Дымоход металлический, вывод через стену. Печь устанавливается на&nbsp;пол, изоляция пола&nbsp;&#151; плита из&nbsp;базальта и&nbsp;оцинкованный лист. Стена в&nbsp;месте прохода печи отделывается оцинкованным листом с&nbsp;воздушной вентиляцией. Под печью оставляется зазор в&nbsp;10&nbsp;см, сообщающийся с&nbsp;моечным отделением.</td>
-			        </tr>
-			        <tr>
-			            <td class=number>21.</td>
-			            <td class=name>Отделка террасы</td>
-			            <td class=description>Пол&nbsp;&#151; строганная доска; плоские фигурные балясины; строганные перила. При стандартной окраске бани все элементы окрашиваются, включая пол террасы.</td>
-			        </tr>
-				</tbody>
-			</table>
-		</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button>
-      </div>
-    </div>-->
+					        </tr>
+					        <tr>
+					            <td class=number>20.</td>
+					            <td class=name>Печь</td>
+					            <td class=description>Сварная банная металлическая печь &laquo;Каменка-2&raquo; со&nbsp;встроенным баком для воды. Дымоход металлический, вывод через стену. Печь устанавливается на&nbsp;пол, изоляция пола&nbsp;&#151; плита из&nbsp;базальта и&nbsp;оцинкованный лист. Стена в&nbsp;месте прохода печи отделывается оцинкованным листом с&nbsp;воздушной вентиляцией. Под печью оставляется зазор в&nbsp;10&nbsp;см, сообщающийся с&nbsp;моечным отделением.</td>
+					        </tr>
+					        <tr>
+					            <td class=number>21.</td>
+					            <td class=name>Отделка террасы</td>
+					            <td class=description>Пол&nbsp;&#151; строганная доска; плоские фигурные балясины; строганные перила. При стандартной окраске бани все элементы окрашиваются, включая пол террасы.</td>
+					        </tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div> --><!-- /.modal -->
 <!-- -+-+-+-+-+-+-+-+-+-+-+-+-+-  START  SITE  -+-+-+-+-+-+-+-+-+-+-+-+-+- -->
 <div class="site">
 	<header class='js-resize'>
@@ -318,7 +320,7 @@
 					</div>
 					<div class="col-md-12">
 						<div class="button--project">
-							<button type="button" data-toggle="modal" data-target="#description-complect" class="btn btn-warning button">ОПИСАНИЕ БАЗОВОЙ КОМПЛЕКТАЦИИ</button>
+							<button type="button" data-toggle="modal" data-target="#description-complect" class="btn btn-warning button">ОПИСАНИЕ КОМПЛЕКТАЦИИ</button>
 						</div>
 					</div>	
 				</div>
