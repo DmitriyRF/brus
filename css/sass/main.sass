@@ -24,11 +24,11 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 	@if map_has_key($max-screen-width, screen#{$i})
 		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i}))
 			h1
-				font-size: modular-scale(6 - $i) //bourbon function
+				font-size: modular-scale(11 - $i) //bourbon function
 			h2
-				font-size: modular-scale(4 - $i) //bourbon function
+				font-size: modular-scale(8 - $i) //bourbon function
 			h3
-				font-size: modular-scale(2 - $i) //bourbon function
+				font-size: modular-scale(4 - $i) //bourbon function
 			h4
 				font-size: modular-scale(0 - $i) //bourbon function
 			p 
@@ -38,7 +38,7 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 			.tel .tab_content //h2
 				font-size: modular-scale(4 - $i) //bourbon function
 			.tel .tabs //h3-h4
-				font-size: modular-scale(0 - $i)//bourbon function
+				font-size: modular-scale(-2 - $i)//bourbon function
 			.logo
 				font-size: modular-scale(4 - $i) //bourbon function
 
@@ -65,6 +65,12 @@ body textarea:required:valid
 
 .hidden
 	display: none
+
+.container, .container-fluid, .row
+	&:before, &:after 
+		display: table
+		content: ""
+		line-height: 0
 
 .fade
 	overflow: scroll		
@@ -271,16 +277,18 @@ a .button
 
 
 .tizer
-	padding: 30px 0
+	padding: 35px 0
+	@media only screen and (max-width : 480px)
+		padding: 15px 0
 	text-align: center
 	background-color: $add-color2
 	h2
 		margin: 0 0 35px
 	.button--project
-		margin: 25px 15px
+		margin: 35px 15px 0
 		text-align: center
 		@media only screen and (max-width : 480px)
-			margin: 7px
+			margin: 15px 7px 0
 			font-size: 14px
 		// a
 		// 	&:hover, &:focus, &:active
@@ -322,6 +330,47 @@ a .button
 		max-width: 100%
 		height: 300px
 
+.detailed-description
+	&:before, &:after 
+		display: table
+		content: ""
+		line-height: 0
+	background: url("../img/bg-detailed-description.jpg")
+	background-repeat: no-repeat
+	background-position: top center
+	-webkit-background-size: cover
+	background-size: cover
+	.dark
+		background: rgba(0,0,0,0.5)
+	h1
+		line-height: 120%
+		font-family: "Open Sans",Arial
+		font-weight: bold
+		margin: 20px 0
+	h3
+		margin: 20px 0
+	.open-modal-detailed
+		display: inline-block
+		padding: 14px 50px
+		text-align: center
+		border-radius: 3px
+		color: #fff
+		font-size: 24px
+		font-weight: bold
+		font-family: Arial
+		text-transform: uppercase
+		cursor: pointer
+		margin: 10vh 0
+	.content-description
+		text-transform: uppercase
+		text-align: center
+		padding: 30px 0
+		min-height: 60vh
+		border: 0
+		color: #fff
+
+
+
 
 .back_call
 	padding: 80px 0
@@ -356,6 +405,9 @@ button:checked,
 button:default,
 input
 	outline: none
+	-moz-user-select: -moz-none
+	-webkit-user-select: none
+	user-select: none
 
 @media only screen and (min-width : 1400px) and (min-height : 850px) 
 	.caption 

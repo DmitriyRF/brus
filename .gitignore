@@ -18,3 +18,7 @@ data/
 #Folder idea
 .idea/
 .idea/*.xml
+
+#Sublime Text 3
+*.sublime-workspace
+*..sublime-project
