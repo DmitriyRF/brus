@@ -379,10 +379,11 @@ a .button
 		line-height: 120%
 		font-family: "Open Sans", Arial
 		font-weight: bold
-		margin: 20px 0
+		margin: 8vh 0 0
 	h3
-		margin: 20px 0
+		margin: 4vh 0 0
 	.open-modal-detailed
+		background-color: $add-color1
 		display: inline-block
 		padding: 14px 50px
 		width: 270px
@@ -392,7 +393,7 @@ a .button
 		position: relative
 		border: 0
 		cursor: pointer
-		margin: 10vh 0
+		margin: 8vh 0 5vh
 		+my-transition(0.1s)
 		+my_border_radius(5px)
 		+my-btn()
@@ -405,11 +406,11 @@ a .button
 			color: #fff
 			left: (270px - 134px) / 2
 			top: (70px - 34px) / 2
-			&:active:not(:disabled)
-				top: (70px - 34px) / 2 + 3px
+		&:active:not(:disabled) > .btn_txt
+			top: (70px - 34px) / 2 + 3px
 			/*Градиент*/
-			&:disabled
-				opacity: 30%
+		&:disabled
+			opacity: 30%
 	.content-description
 		text-transform: uppercase
 		text-align: center
@@ -417,9 +418,6 @@ a .button
 		min-height: 60vh
 		border: 0
 		color: #fff
-
-
-
 
 .back_call
 	padding: 80px 0
