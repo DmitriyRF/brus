@@ -27,26 +27,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 1.57025em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.9em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.9em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 2.78179em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 1.57025em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 2.78179em;
   }
@@ -73,26 +78,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 1.4275em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.72727em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.72727em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 2.5289em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 1.4275em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 2.5289em;
   }
@@ -119,26 +129,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 1.29773em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.57025em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.57025em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 2.299em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 1.29773em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 2.299em;
   }
@@ -165,26 +180,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 1.17975em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.4275em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.4275em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 2.09em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 1.17975em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 2.09em;
   }
@@ -211,26 +231,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 1.0725em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.29773em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.29773em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 1.9em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 1.0725em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 1.9em;
   }
@@ -257,26 +282,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 0.975em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.17975em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.17975em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 1.72727em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 0.975em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 1.72727em;
   }
@@ -303,26 +333,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 0.88636em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 1.0725em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 1.0725em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 1.57025em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 0.88636em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 1.57025em;
   }
@@ -349,26 +384,31 @@ html {
   }
 
   /* line 34, sass/main.sass */
+  h5 {
+    font-size: 0.80579em;
+  }
+
+  /* line 36, sass/main.sass */
   p {
     font-size: 0.975em;
   }
 
-  /* line 36, sass/main.sass */
+  /* line 38, sass/main.sass */
   td, th {
     font-size: 0.975em;
   }
 
-  /* line 38, sass/main.sass */
+  /* line 40, sass/main.sass */
   .tel .tab_content {
     font-size: 1.4275em;
   }
 
-  /* line 40, sass/main.sass */
+  /* line 42, sass/main.sass */
   .tel .tabs {
     font-size: 0.80579em;
   }
 
-  /* line 42, sass/main.sass */
+  /* line 44, sass/main.sass */
   .logo {
     font-size: 1.4275em;
   }
@@ -377,7 +417,7 @@ html {
  *
  * /* ╨Я╨╡╤А╨╡╤Е╨╛╨┤ */
 /*╨б╨║╤А╤Г╨│╨╗╨╡╨╜╨╜╤Л╨╡ ╤Г╨│╨╗╤Л */
-/* line 82, sass/main.sass */
+/* line 84, sass/main.sass */
 body {
   font-family: "RobotoRegular", sans-serif, "Raleway", sans-serif;
   color: #333;
@@ -388,68 +428,68 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 92, sass/main.sass */
+/* line 94, sass/main.sass */
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red;
 }
 
-/* line 95, sass/main.sass */
+/* line 97, sass/main.sass */
 body input:required:valid,
 body textarea:required:valid {
   color: green;
 }
 
-/* line 99, sass/main.sass */
+/* line 101, sass/main.sass */
 .hidden {
   display: none;
 }
 
-/* line 103, sass/main.sass */
+/* line 105, sass/main.sass */
 .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
   display: table;
   content: "";
   line-height: 0;
 }
 
-/* line 108, sass/main.sass */
+/* line 110, sass/main.sass */
 .fade {
   overflow: scroll;
   font-family: "RobotoRegular";
 }
-/* line 110, sass/main.sass */
+/* line 112, sass/main.sass */
 .fade button {
   cursor: pointer;
   text-transform: uppercase;
   font-size: 3em;
 }
-/* line 115, sass/main.sass */
+/* line 117, sass/main.sass */
 .fade .modal-header {
   background-color: #FF7100;
 }
-/* line 117, sass/main.sass */
+/* line 119, sass/main.sass */
 .fade .modal-title {
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
 }
-/* line 122, sass/main.sass */
+/* line 124, sass/main.sass */
 .fade .modal-body .number {
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
 }
-/* line 126, sass/main.sass */
+/* line 128, sass/main.sass */
 .fade .modal-body .name {
   vertical-align: middle;
 }
 @media only screen and (max-width: 480px) {
-  /* line 128, sass/main.sass */
+  /* line 130, sass/main.sass */
   .fade .modal-footer {
     text-align: center;
   }
 }
-/* line 131, sass/main.sass */
+/* line 133, sass/main.sass */
 .fade .modal-footer button {
   padding: 7px 32px;
   cursor: pointer;
@@ -461,14 +501,14 @@ body textarea:required:valid {
   font-size: 16px;
 }
 
-/* line 143, sass/main.sass */
+/* line 145, sass/main.sass */
 h1 {
   font-weight: bold;
   font-family: CleanvertisingLight, sans-serif;
   margin: 0;
 }
 
-/* line 148, sass/main.sass */
+/* line 150, sass/main.sass */
 header {
   min-height: 600px;
   background-image: url(../img/mainBG.jpeg);
@@ -478,40 +518,40 @@ header {
   background-attachment: fixed;
   color: #FFAB00;
 }
-/* line 156, sass/main.sass */
+/* line 158, sass/main.sass */
 header .heder-logo-tel {
   margin-top: 30px;
 }
-/* line 158, sass/main.sass */
+/* line 160, sass/main.sass */
 header .logo {
   vertical-align: middle;
   font-family: "RobotoRegular", sans-serif;
   font-weight: bold;
 }
 @media only screen and (max-width: 992px) {
-  /* line 158, sass/main.sass */
+  /* line 160, sass/main.sass */
   header .logo {
     text-align: center;
     margin-bottom: 15px;
   }
 }
-/* line 166, sass/main.sass */
+/* line 168, sass/main.sass */
 header .fon-white {
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
 }
 
-/* line 183, sass/main.sass */
+/* line 185, sass/main.sass */
 .tel {
   text-align: right;
 }
-/* line 172, sass/main.sass */
+/* line 174, sass/main.sass */
 .tel .js-wrapper .active {
   color: #FF7100;
   text-decoration: underline;
 }
-/* line 175, sass/main.sass */
+/* line 177, sass/main.sass */
 .tel .js-wrapper .tab {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -519,31 +559,31 @@ header .fon-white {
   text-transform: uppercase;
   cursor: pointer;
 }
-/* line 179, sass/main.sass */
+/* line 181, sass/main.sass */
 .tel .js-wrapper .tab_item {
   color: #FF7100;
   text-transform: uppercase;
   font-family: "RobotoBold";
 }
 @media only screen and (max-width: 992px) {
-  /* line 183, sass/main.sass */
+  /* line 185, sass/main.sass */
   .tel {
     text-align: center;
   }
 }
 
-/* line 190, sass/main.sass */
+/* line 192, sass/main.sass */
 .tabs-heder {
   margin: 50px 0 20px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 190, sass/main.sass */
+  /* line 192, sass/main.sass */
   .tabs-heder {
     margin-top: 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 196, sass/main.sass */
+  /* line 198, sass/main.sass */
   .tabs-heder .tabs:after {
     content: "";
     display: block;
@@ -552,7 +592,7 @@ header .fon-white {
     background-color: #FF7100;
   }
 }
-/* line 202, sass/main.sass */
+/* line 204, sass/main.sass */
 .tabs-heder .tabs .tab {
   display: inline-block;
   padding: 10px 25px;
@@ -565,33 +605,33 @@ header .fon-white {
   /*+transition(all .2s ease) */
 }
 @media only screen and (max-width: 480px) {
-  /* line 202, sass/main.sass */
+  /* line 204, sass/main.sass */
   .tabs-heder .tabs .tab {
     display: block;
     width: 100%;
   }
-  /* line 207, sass/main.sass */
+  /* line 209, sass/main.sass */
   .tabs-heder .tabs .tab.active {
     font-weight: bold;
   }
 }
-/* line 217, sass/main.sass */
+/* line 219, sass/main.sass */
 .tabs-heder .tabs .tab.active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #FF7100;
 }
-/* line 220, sass/main.sass */
+/* line 222, sass/main.sass */
 .tabs-heder .tab_content {
   display: block;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 10px 25px 20px;
 }
-/* line 221, sass/main.sass */
+/* line 223, sass/main.sass */
 .tabs-heder .tab_content ul, .tabs-heder .tab_content li {
   margin: 0;
   padding: 0;
 }
-/* line 224, sass/main.sass */
+/* line 226, sass/main.sass */
 .tabs-heder .tab_content li {
   list-style-type: none;
   min-height: 45px;
@@ -600,25 +640,25 @@ header .fon-white {
   top: 0;
   z-index: 1;
 }
-/* line 231, sass/main.sass */
+/* line 233, sass/main.sass */
 .tabs-heder .tab_content li:hover {
   top: -3px;
   z-index: 2;
 }
-/* line 234, sass/main.sass */
+/* line 236, sass/main.sass */
 .tabs-heder .tab_content h4 {
   padding: 14px 0 14px 65px;
   margin: 0;
   vertical-align: middle;
 }
 @media only screen and (max-width: 480px) {
-  /* line 220, sass/main.sass */
+  /* line 222, sass/main.sass */
   .tabs-heder .tab_content {
     padding: 10px;
   }
 }
 
-/* line 247, sass/main.sass */
+/* line 249, sass/main.sass */
 .bg-image {
   height: 45px;
   width: 45px;
@@ -627,49 +667,49 @@ header .fon-white {
   background-size: cover;
 }
 
-/* line 254, sass/main.sass */
+/* line 256, sass/main.sass */
 .caption {
   margin-top: 80px;
   color: #FFAB00;
 }
-/* line 257, sass/main.sass */
+/* line 259, sass/main.sass */
 .caption h2 {
   font-weight: bold;
   margin: 0;
   font-family: "CleanvertisingLight";
 }
 @media only screen and (max-width: 992px) {
-  /* line 254, sass/main.sass */
+  /* line 256, sass/main.sass */
   .caption {
     margin-top: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 254, sass/main.sass */
+  /* line 256, sass/main.sass */
   .caption {
     margin-top: 20px;
     text-align: center;
   }
 }
 
-/* line 267, sass/main.sass */
+/* line 269, sass/main.sass */
 .button--wrappe {
   text-align: right;
   margin-top: 15px;
 }
 @media only screen and (max-width: 480px) {
-  /* line 267, sass/main.sass */
+  /* line 269, sass/main.sass */
   .button--wrappe {
     text-align: center;
   }
 }
-/* line 273, sass/main.sass */
+/* line 275, sass/main.sass */
 .button--wrappe a:hover, .button--wrappe a:focus, .button--wrappe a:active {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 292, sass/main.sass */
+/* line 294, sass/main.sass */
 .button {
   border: none;
   cursor: pointer;
@@ -686,23 +726,23 @@ header .fon-white {
   font-family: "RobotoRegular";
 }
 @media only screen and (max-width: 480px) {
-  /* line 292, sass/main.sass */
+  /* line 294, sass/main.sass */
   .button {
     padding: 0 16px;
   }
 }
-/* line 296, sass/main.sass */
+/* line 298, sass/main.sass */
 .button.btn_red {
   background-color: #FF7100;
 }
 
-/* line 299, sass/main.sass */
+/* line 301, sass/main.sass */
 a .button {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 305, sass/main.sass */
+/* line 307, sass/main.sass */
 .picture-letter-a {
   background-image: url("../img/a.jpg");
   background-repeat: no-repeat;
@@ -710,7 +750,7 @@ a .button {
   background-size: cover;
 }
 
-/* line 305, sass/main.sass */
+/* line 307, sass/main.sass */
 .picture-letter-b {
   background-image: url("../img/b.jpg");
   background-repeat: no-repeat;
@@ -718,7 +758,7 @@ a .button {
   background-size: cover;
 }
 
-/* line 305, sass/main.sass */
+/* line 307, sass/main.sass */
 .picture-letter-c {
   background-image: url("../img/c.jpg");
   background-repeat: no-repeat;
@@ -726,7 +766,7 @@ a .button {
   background-size: cover;
 }
 
-/* line 305, sass/main.sass */
+/* line 307, sass/main.sass */
 .picture-letter-d {
   background-image: url("../img/d.jpg");
   background-repeat: no-repeat;
@@ -734,46 +774,46 @@ a .button {
   background-size: cover;
 }
 
-/* line 312, sass/main.sass */
+/* line 314, sass/main.sass */
 .tizer {
   padding: 35px 0;
   text-align: center;
   background-color: #FF7100;
 }
 @media only screen and (max-width: 480px) {
-  /* line 312, sass/main.sass */
+  /* line 314, sass/main.sass */
   .tizer {
     padding: 15px 0;
   }
 }
-/* line 318, sass/main.sass */
+/* line 320, sass/main.sass */
 .tizer h2 {
   margin: 0 0 35px;
 }
-/* line 320, sass/main.sass */
+/* line 322, sass/main.sass */
 .tizer .button--project {
   margin: 35px 15px 0;
   text-align: center;
 }
 @media only screen and (max-width: 480px) {
-  /* line 320, sass/main.sass */
+  /* line 322, sass/main.sass */
   .tizer .button--project {
     margin: 15px 7px 0;
     font-size: 14px;
   }
 }
 
-/* line 332, sass/main.sass */
+/* line 334, sass/main.sass */
 .js-project .tabs .tab {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 335, sass/main.sass */
+/* line 337, sass/main.sass */
 .js-project .tabs > .active .project-img {
   box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.6);
   transition: all 0.5s;
 }
-/* line 338, sass/main.sass */
+/* line 340, sass/main.sass */
 .js-project .tab_content .tab_item {
   display: block;
   max-width: 100%;
@@ -781,11 +821,11 @@ a .button {
   border-radius: 15px;
   padding: 5px;
 }
-/* line 344, sass/main.sass */
+/* line 346, sass/main.sass */
 .js-project .tab_content .tab_item p {
   vertical-align: middle;
 }
-/* line 346, sass/main.sass */
+/* line 348, sass/main.sass */
 .js-project .project-img {
   margin: 4vmin;
   width: 20vmin;
@@ -796,14 +836,14 @@ a .button {
   box-shadow: inset 0 0 0 8px rgba(255, 113, 0, 0.6);
 }
 @media only screen and (min-width: 1500px) {
-  /* line 346, sass/main.sass */
+  /* line 348, sass/main.sass */
   .js-project .project-img {
     width: 200px;
     height: 200px;
     margin: 36px;
   }
 }
-/* line 358, sass/main.sass */
+/* line 360, sass/main.sass */
 .js-project .content-img {
   border-radius: 15px 0 0 15px;
   border-radius-border-radius: 15px;
@@ -812,7 +852,7 @@ a .button {
   height: 300px;
 }
 
-/* line 366, sass/main.sass */
+/* line 368, sass/main.sass */
 .detailed-description {
   background: url("../img/bg-detailed-description.jpg");
   background-repeat: no-repeat;
@@ -820,28 +860,28 @@ a .button {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 367, sass/main.sass */
+/* line 369, sass/main.sass */
 .detailed-description:before, .detailed-description:after {
   display: table;
   content: "";
   line-height: 0;
 }
-/* line 376, sass/main.sass */
+/* line 378, sass/main.sass */
 .detailed-description .dark {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 378, sass/main.sass */
+/* line 380, sass/main.sass */
 .detailed-description h1 {
   line-height: 120%;
   font-family: "Open Sans", Arial;
   font-weight: bold;
   margin: 8vh 0 0;
 }
-/* line 383, sass/main.sass */
+/* line 385, sass/main.sass */
 .detailed-description h3 {
   margin: 4vh 0 0;
 }
-/* line 385, sass/main.sass */
+/* line 387, sass/main.sass */
 .detailed-description .open-modal-detailed {
   background-color: #FFD700;
   display: inline-block;
@@ -882,25 +922,25 @@ a .button {
   background-image: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.2) 100%);
   background-image: linear-gradient(to   , rgba(0, 0, 0, 0.2) 100%);
 }
-/* line 68, sass/main.sass */
+/* line 70, sass/main.sass */
 .detailed-description .open-modal-detailed:hover:not(:disabled) {
   /*╨У╤А╨░╨┤╨╕╨╡╨╜╤В */
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3) 0%, transparent 100%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, transparent 100%);
 }
-/* line 71, sass/main.sass */
+/* line 73, sass/main.sass */
 .detailed-description .open-modal-detailed:active:not(:disabled) {
   /*╨в╨╡╨╜╤М */
   -webkit-box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5);
 }
-/* line 76, sass/main.sass */
+/* line 78, sass/main.sass */
 .detailed-description .open-modal-detailed:disabled {
   cursor: not-allowed;
   opacity: 0.5;
 }
-/* line 400, sass/main.sass */
+/* line 402, sass/main.sass */
 .detailed-description .open-modal-detailed .btn_txt {
   position: absolute;
   font-size: 24px;
@@ -911,16 +951,16 @@ a .button {
   left: 68px;
   top: 18px;
 }
-/* line 409, sass/main.sass */
+/* line 411, sass/main.sass */
 .detailed-description .open-modal-detailed:active:not(:disabled) > .btn_txt {
   top: 21px;
   /*╨У╤А╨░╨┤╨╕╨╡╨╜╤В */
 }
-/* line 412, sass/main.sass */
+/* line 414, sass/main.sass */
 .detailed-description .open-modal-detailed:disabled {
   opacity: 30%;
 }
-/* line 414, sass/main.sass */
+/* line 416, sass/main.sass */
 .detailed-description .content-description {
   text-transform: uppercase;
   text-align: center;
@@ -930,7 +970,7 @@ a .button {
   color: #fff;
 }
 
-/* line 422, sass/main.sass */
+/* line 424, sass/main.sass */
 .back_call {
   padding: 80px 0;
   text-align: center;
@@ -939,24 +979,24 @@ a .button {
   border-bottom-left-radius: 70% 15%;
   background-color: #FFD700;
 }
-/* line 429, sass/main.sass */
+/* line 431, sass/main.sass */
 .back_call h3 {
   text-transform: uppercase;
 }
-/* line 431, sass/main.sass */
+/* line 433, sass/main.sass */
 .back_call input {
   margin: 20px 20px 0;
   display: inline-block;
   padding: 7px 7px 7px 20px;
 }
-/* line 435, sass/main.sass */
+/* line 437, sass/main.sass */
 .back_call input[type="submit"] {
   padding: 7px 70px;
   text-transform: uppercase;
   border-radius: 5px;
 }
 
-/* line 440, sass/main.sass */
+/* line 442, sass/main.sass */
 button,
 button:active,
 button:focus,
@@ -971,55 +1011,55 @@ input {
 }
 
 @media only screen and (min-width: 1400px) and (min-height: 850px) {
-  /* line 453, sass/main.sass */
+  /* line 455, sass/main.sass */
   .caption {
     margin-top: 100px;
   }
 
-  /* line 455, sass/main.sass */
+  /* line 457, sass/main.sass */
   .tabs-heder {
     margin-top: 100px;
   }
 
-  /* line 457, sass/main.sass */
+  /* line 459, sass/main.sass */
   .heder-logo-tel {
     margin-top: 50px;
   }
 }
 @media only screen and (min-width: 2000px) and (min-height: 1100px) {
-  /* line 460, sass/main.sass */
+  /* line 462, sass/main.sass */
   .caption {
     margin-top: 200px;
   }
 
-  /* line 462, sass/main.sass */
+  /* line 464, sass/main.sass */
   .tabs-heder {
     margin-top: 200px;
   }
 
-  /* line 464, sass/main.sass */
+  /* line 466, sass/main.sass */
   .heder-logo-tel {
     margin-top: 100px;
   }
 
-  /* line 466, sass/main.sass */
+  /* line 468, sass/main.sass */
   .tizer img {
     max-width: 230px;
     max-height: 230px;
   }
 }
 @media only screen and (min-width: 2500px) and (min-height: 1400px) {
-  /* line 470, sass/main.sass */
+  /* line 472, sass/main.sass */
   .caption {
     margin-top: 250px;
   }
 
-  /* line 472, sass/main.sass */
+  /* line 474, sass/main.sass */
   .tabs-heder {
     margin-top: 250px;
   }
 
-  /* line 474, sass/main.sass */
+  /* line 476, sass/main.sass */
   .heder-logo-tel {
     margin-top: 150px;
   }

@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
 
 // FANSYBOX  ------------+-------------------------+-------------------------+-------------------------+-------------
 //http://fancyapps.com/
-    ("a.gallery").fancybox({                       
+    $("img.gallery").fancybox({                       
             // "padding" : 20,//padding - отступ контента (фотографий) от краев окна.
             // "imageScale" : false,   //imageScale - true - контент масштабируется по размеру окна, 
             //                         // false - окно вытягивается по размеру контента. По умолчанию - true;
@@ -49,7 +49,6 @@ jQuery(document).ready(function ($) {
             // "overlayOpacity" : 0.8, //overlayOpacity - Прозрачность затемнения (0.3 по умолчанию);
             // "hideOnContentClick" :false, //hideOnContentClick -  true закрывает окно по клику по любой его точке (кроме элементов навигации). По умолчанию true;
             // "centerOnScroll" : false //centerOnScroll - Если true, то окно центрируется на экране, когда пользователь прокручивает страницу.
-                
             });
 
 //Цели для Яндекс.Метрики и Google Analytics ------------+-------------------------+-------------------------+-------------
