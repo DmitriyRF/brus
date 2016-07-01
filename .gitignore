@@ -21,4 +21,4 @@ data/
 
 #Sublime Text 3
 *.sublime-workspace
-*..sublime-project
+*.sublime-project

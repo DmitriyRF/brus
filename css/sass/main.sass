@@ -44,6 +44,39 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 
 /*--------------------------  END MEDIA REQUEST  --------------------------*/
 
+ /* Переход */
+=my-transition($transition_time)
+	@include transition-property(all)//bourbon mixin
+	@include transition-duration(0s)//bourbon mixin
+	@include transition-timing-function(ease)//bourbon mixin
+	@include transition-delay($transition_time)//bourbon mixin
+
+/*Скругленные углы*/
+=my_border_radius($my_border_radius)
+	@include border-top-radius($my_border_radius)//bourbon mixin
+	@include border-right-radius($my_border_radius)//bourbon mixin
+	@include border-bottom-radius($my_border_radius)//bourbon mixin
+	@include border-left-radius($my_border_radius)//bourbon mixin
+//+my-btn(5px)
+=my-btn()
+	/*Тень*/	
+	-webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5)
+	-moz-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5)
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5)
+	/*Градиент*/
+	@include background-image(linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%))//bourbon mixin
+	&:hover:not(:disabled)
+		/*Градиент*/
+		@include background-image(linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%))//bourbon mixin
+	&:active:not(:disabled)
+		/*Тень*/
+		-webkit-box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5)
+		-moz-box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5)
+		box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5)
+	&:disabled
+		cursor: not-allowed
+		opacity: 0.5
+
 
 
 body
@@ -344,7 +377,7 @@ a .button
 		background: rgba(0,0,0,0.5)
 	h1
 		line-height: 120%
-		font-family: "Open Sans",Arial
+		font-family: "Open Sans", Arial
 		font-weight: bold
 		margin: 20px 0
 	h3
@@ -352,15 +385,31 @@ a .button
 	.open-modal-detailed
 		display: inline-block
 		padding: 14px 50px
+		width: 270px
+		height: 70px
 		text-align: center
-		border-radius: 3px
-		color: #fff
-		font-size: 24px
-		font-weight: bold
-		font-family: Arial
-		text-transform: uppercase
+		overflow: hidden
+		position: relative
+		border: 0
 		cursor: pointer
 		margin: 10vh 0
+		+my-transition(0.1s)
+		+my_border_radius(5px)
+		+my-btn()
+		.btn_txt
+			position: absolute
+			font-size: 24px
+			font-weight: bold
+			font-family: "Open Sans", Arial
+			text-transform: uppercase
+			color: #fff
+			left: (270px - 134px) / 2
+			top: (70px - 34px) / 2
+			&:active:not(:disabled)
+				top: (70px - 34px) / 2 + 3px
+			/*Градиент*/
+			&:disabled
+				opacity: 30%
 	.content-description
 		text-transform: uppercase
 		text-align: center
@@ -390,13 +439,6 @@ a .button
 			text-transform: uppercase
 			border-radius: 5px
 		
-
-
-// section
-// 	padding: 56px 0 68px
-// 	h2
-// 		color: $main-color
-// 		line-height: 40px
 button, 
 button:active, 
 button:focus,
