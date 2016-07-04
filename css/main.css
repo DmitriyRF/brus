@@ -774,6 +774,14 @@ a .button {
   background-size: cover;
 }
 
+/* line 307, sass/main.sass */
+.picture-letter-e {
+  background-image: url("../img/e.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 /* line 314, sass/main.sass */
 .tizer {
   padding: 35px 0;
