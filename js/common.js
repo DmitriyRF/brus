@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
 
 // FANSYBOX  ------------+-------------------------+-------------------------+-------------------------+-------------
 //http://fancyapps.com/
-    $("a.gallery").fancybox({ 
+    $("a.gallery, button.open-modal-detailed").fancybox({ 
             "autoSize" : true,                      
             // "padding" : 20,//padding - отступ контента (фотографий) от краев окна.
             "imageScale" : true,   //imageScale - true - контент масштабируется по размеру окна, 
@@ -66,6 +66,24 @@ jQuery(document).ready(function ($) {
                     play   : [32], // space - start/stop slideshow
                     toggle : [70]  // letter "f" - toggle fullscreen
             });
+    
+    $("button.open-modal-detailed").fancybox({ 
+            // "autoSize" : true,                      
+            "padding" : 2,//padding - отступ контента (фотографий) от краев окна.
+            "imageScale" : true,   //imageScale - true - контент масштабируется по размеру окна, 
+            //                         // false - окно вытягивается по размеру контента. По умолчанию - true;
+            // "zoomOpacity" : false,  //zoomOpacity - изменение прозрачности контента во время анимации
+            // "zoomSpeedIn" : 1000,   //zoomSpeedIn - скорость анимации в мс при увеличении фото (по умолчанию 0);
+            // "zoomSpeedOut" : 1000,  //zoomSpeedOut - скорость анимации в мс при уменьшении фото (по умолчанию 0) ;
+            // "zoomSpeedChange" : 1000, //zoomSpeedChange - скорость анимации в мс при смене фото (по умолчанию 0);
+            "frameWidth" : 700,  //frameWidth - ширина окна, px (425px - по умолчанию);
+            "frameHeight" : 600, //frameHeight - высота окна, px(355px - по умолчанию);
+            // "overlayShow" : true, //overlayShow - (по умолчанию true) если true, то затенят страницу под всплывающим окном. 
+            //                         //Цвет задается в jquery.fancybox.css - div#fancy_overlay 
+             "overlayOpacity" : 0.8//, //overlayOpacity - Прозрачность затемнения (0.3 по умолчанию);
+            // "hideOnContentClick" :false, //hideOnContentClick -  true закрывает окно по клику по любой его точке (кроме элементов навигации). По умолчанию true;
+            });
+
 
 //Цели для Яндекс.Метрики и Google Analytics ------------+-------------------------+-------------------------+-------------
 
