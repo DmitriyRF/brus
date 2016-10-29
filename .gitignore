@@ -9,7 +9,7 @@ data/
 *.jar
 *.war
 *.ear
-
+//java file
 *.class
 
 # Mobile Tools for Java (J2ME)
